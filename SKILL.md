@@ -75,6 +75,7 @@ description: 给定一个投资主题/趋势,复用交易者 Serenity(@aleabitor
 
 **强制**用 `scripts/price.py` 拉真实价格数据(provider 自动回退:**EODHD(`EODHD_API_KEY`)优先 → yfinance 兜底**),输出 6 月区间位置、距高点、近 1/3 月动量、stage 标签。**严禁用 WebSearch 抓价格、严禁凭印象猜"差不多 early/extended"**——猜测视为流程错误。海外股(欧股/台股等)若 yfinance 拿不到,**让用户提供 EODHD key 或换可解析代码后重跑,不要降级为定性**。
 - **广扫批量拉价格必须走 price.py 接口(2026-06-01 加,用户挑战驱动)**:不允许用 PowerShell 直接 `Invoke-RestMethod` 调 EODHD API,**会绕过 yfinance fallback**——这是真实犯过的错(物理 AI 主题 v1 报告漏 4 只日股,因为 EODHD 不支持 .T 后缀,我用 inline EODHD 调用没触发 fallback)。**正确方式**:`python -c "from scripts.price import analyze; print(analyze('6324.T'))"`(走 EODHD→yfinance 完整链)或在脚本里 `from scripts.price import fetch_history`。批量场景写小 wrapper 脚本,**禁止 inline API**。
+- **报告内所有数字必须 100% 来自 price.py 输出,严禁手填/猜数(2026-06-02 加,用户抓错驱动)**:`price.py analyze()` 返回 6 个字段(`last / range_pos_6mo_pct / pct_off_6mo_high / ret_1m_pct / ret_3m_pct / above_sma50 / stage`),报告显示**任一数字**必须从这里来。**真实犯过的错(2026-06-02 dogfood #7+#8)**:9 个标的的 `off_6mo_high` 数字被手填错(HSAI 写 -89%、真实 -35.6%;海康写 -77%、真实 -19% 等),根本原因是 PowerShell 输出里我只复制了 `rng/1m/3m`,**off% 没记录就手填了"看着合理的大数字"**。修复机制:批量 scan 脚本输出**必须包含 off_high**,并保留完整 PowerShell 输出 log;forward_picks 写入前对 9 个字段做完整 verify。**手填任何数字都是流程错误**。
 
 ---
 

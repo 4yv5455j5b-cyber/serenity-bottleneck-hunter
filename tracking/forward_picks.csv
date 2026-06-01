@@ -97,14 +97,14 @@
 2026-06-01,物理AI,ISRG.US,Intuitive Surgical,下游对照,排除,424.64,USD,downtrend(1m-6%/3m-16%/rng3%),🔴排除[非Serenity猎物],医疗机器人da Vinci-估值已显著调整但不是主题猎物
 2026-06-01,物理AI,6954.T,Fanuc,中游系统,④⑧,8081,JPY,early-uptrend(1m+16%/3m+15%/rng81%-yfinance),🟡观望[trigger:小盘标的优先-Fanuc MC偏大失⑦],日本工业机器人龙头-下游本体厂
 2026-06-01,物理AI,6506.T,Yaskawa,中游系统,④⑧,7140,JPY,early-uptrend偏热(1m+33%/3m+32%-yfinance),🟡观望[trigger:回调-15%],日本伺服+工业机器人本体-1m+33%偏热
-2026-06-01,自动驾驶L4,HSAI.US,Hesai 禾赛,上游咽喉,①⑦⑨,18.9,USD,range深度底(1m-16.7%/3m-31%/rng11%/off-89%),🟢候选[LiDAR 中概龙头深度回调-Serenity ⑨地缘错杀经典],中国LiDAR出货全球#1-车规+RoboTaxi双线-中美关系打压被错杀
+2026-06-01,自动驾驶L4,HSAI.US,Hesai 禾赛,上游咽喉,①⑦⑨,18.9,USD,range深度底(1m-16.7%/3m-31%/rng11%/off-36%),🟢候选[LiDAR 中概龙头深度回调-Serenity ⑨地缘错杀经典],中国LiDAR出货全球#1-车规+RoboTaxi双线-中美关系打压被错杀
 2026-06-01,自动驾驶L4,LAZR.US,Luminar,反面参照,反向,0.09,USD,实质清盘(1m-90%/3m-95%),🔴排除[财务失败案例],技术故事破灭+财务危机-避开
 2026-06-01,自动驾驶L4,INVZ.US,Innoviz,上游咽喉,①,0.76,USD,range(1m+14%/3m-15.7%/rng22%),🟡观望[trigger:订单 visibility+财务转正],小盘 LiDAR 横盘等故事
 2026-06-01,自动驾驶L4,AEVA.US,Aeva,上游咽喉,①⑦,28.18,USD,extended/parabolic(1m+76%/3m+94%/rng92%),🔴跳过[已抛物线],FMCW LiDAR 技术升级路线-已被认知
 2026-06-01,自动驾驶L4,OUST.US,Ouster,上游咽喉,①,46.05,USD,extended(1m+71%/3m+127%/rng96%),🔴跳过[已抛物线],数字 LiDAR-已被认知
 2026-06-01,自动驾驶L4,INDI.US,Indie Semiconductor,上游咽喉,①④,4.99,USD,extended(3m+47%/rng84%),🟡观望[trigger:回-20%],车规模拟+RF 已起步
-2026-06-01,自动驾驶L4,603501.SHG,韦尔股份,上游咽喉,①⑧⑨,95,CNY,range深度回调启动(1m-8.6%/3m-22.5%/rng12%/off-88%),🟢候选[A股 CIS 车规龙头深度回调底+国产替代],OmniVision 车规 CIS 全球#3+CMOS 图像传感器深度国产替代
-2026-06-01,自动驾驶L4,TRMB.US,Trimble,上游设备,①④,56.41,USD,range深度回调(1m-16%/3m-17.5%/rng11%/off-89%),🟢候选[高精度 GNSS 定位被深度回调-但业务摊薄需注意],GNSS+测绘 综合 - 自动驾驶+精准农业+建筑测量
+2026-06-01,自动驾驶L4,603501.SHG,韦尔股份,上游咽喉,①⑧⑨,95,CNY,range深度回调启动(1m-8.6%/3m-22.5%/rng12%/off-32%),🟢候选[A股 CIS 车规龙头深度回调底+国产替代],OmniVision 车规 CIS 全球#3+CMOS 图像传感器深度国产替代
+2026-06-01,自动驾驶L4,TRMB.US,Trimble,上游设备,①④,56.41,USD,range深度回调(1m-16%/3m-17.5%/rng11%/off-36%),🟢候选[高精度 GNSS 定位被深度回调-但业务摊薄需注意],GNSS+测绘 综合 - 自动驾驶+精准农业+建筑测量
 2026-06-01,自动驾驶L4,HXGBY.US,Hexagon ADR,上游设备,①④,10.8,USD,range(rng53%/1m+0%/3m-1.5%),🟡观望[trigger:1m转正],瑞典测绘综合-业务摊薄
 2026-06-01,自动驾驶L4,MBLY.US,Mobileye,中游器件,④⑦⑧,10.34,USD,early-uptrend(1m+19%/3m+24%/rng49%),🟢候选[模式 A 健康入场+EyeQ 系列辅助驾驶 80% 全球市占],EyeQ ASIC+全球辅助驾驶第一+L4 SuperVision
 2026-06-01,自动驾驶L4,AMBA.US,Ambarella,中游卖铲子,④⑦,72.18,USD,early-uptrend(1m+5%/3m+18%/rng50%),🟢候选+跨主题⭐[跨物理AI+自动驾驶],边缘视觉 SoC-同时跨人形机器人+自动驾驶+安防 多 capex cycle
@@ -118,18 +118,18 @@
 2026-06-01,自动驾驶L4,MPWR.US,Monolithic Power,中游卖铲子,④,1566.21,USD,early(3m+37%),🟡观望[跨主题⭐⭐⭐升级],高效 PMIC-车规电源跨主题
 2026-06-01,自动驾驶L4,NVDA.US,NVIDIA,下游对照,排除,211.14,USD,early(3m+15%),🔴排除[Drive Thor 平台主推但市值4T+],下游 AI 计算-NVDA Drive Thor 自动驾驶 SoC
 2026-06-01,自动驾驶L4,TSLA.US,Tesla,下游对照,排除,435.79,USD,early(1m+14%/3m+8%),🔴排除[FSD/Robotaxi 主题已被市场覆盖],FSD 软件订阅+Cybercab
-2026-06-01,AMR无人机视觉,SYM.US,Symbotic,中游系统,④⑦,46.42,USD,range深度底(1m-21%/3m-14%/rng5%/off-95%),🟡观望[trigger:1m转正+Walmart合同visibility],仓储自动化龙头-Walmart  合同但短期跌势
+2026-06-01,AMR无人机视觉,SYM.US,Symbotic,中游系统,④⑦,46.42,USD,range深度底(1m-21%/3m-14%/rng5%/off-47%),🟡观望[trigger:1m转正+Walmart合同visibility],仓储自动化龙头-Walmart  合同但短期跌势
 2026-06-01,AMR无人机视觉,AUTO.OL,AutoStore,中游系统,④⑦,13.15,NOK,extended(1m+12%/3m+14%/rng85%),🟡观望,挪威仓储自动化龙头-Ocado/Best Buy 客户
 2026-06-01,AMR无人机视觉,CGNX.US,Cognex,中游器件,④⑦,65.85,USD,extended(1m+19%/3m+22%/rng84%),🟡观望[trigger:回调-20%],美国机器视觉龙头-工业精密检测
 2026-06-01,AMR无人机视觉,6861.T,Keyence,中游器件,④⑦,80220,JPY,extended(1m+9%/3m+22%/rng88%),🟡观望[trigger:回调],日本机器视觉龙头-毛利率55% 业内最高
-2026-06-01,AMR无人机视觉,002415.SHE,海康威视,中游系统,④⑦⑨,30.56,CNY,range深度回调启动(1m-12%/3m-3%/rng23%/off-77%),🟢候选[Entity List地缘错杀+国产替代+rng23%深度底],全球安防/机器视觉龙头-被Entity List打压但产业地位未变
-2026-06-01,AMR无人机视觉,002236.SHE,大华股份,中游系统,④⑦⑨,16.69,CNY,range深度回调(1m-8%/3m-13%/rng7%/off-93%),🟡观望[trigger:1m转正+海康跟随],全球安防#2-同海康但更小盘
-2026-06-01,AMR无人机视觉,AVAV.US,AeroVironment,中游系统,④⑦,207.24,USD,range深度回调(1m+6%/3m-0.5%/rng20%/off-80%),🟢候选[军用无人机龙头+Switchblade乌克兰验证+深度回调底],Switchblade 巡飞弹+Puma 战术无人机-美军主力
+2026-06-01,AMR无人机视觉,002415.SHE,海康威视,中游系统,④⑦⑨,30.56,CNY,range深度回调启动(1m-12%/3m-3%/rng23%/off-19%),🟢候选[Entity List地缘错杀+国产替代+rng23%深度底],全球安防/机器视觉龙头-被Entity List打压但产业地位未变
+2026-06-01,AMR无人机视觉,002236.SHE,大华股份,中游系统,④⑦⑨,16.69,CNY,range深度回调(1m-8%/3m-13%/rng7%/off-21%),🟡观望[trigger:1m转正+海康跟随],全球安防#2-同海康但更小盘
+2026-06-01,AMR无人机视觉,AVAV.US,AeroVironment,中游系统,④⑦,207.24,USD,range深度回调(1m+6%/3m-0.5%/rng20%/off-49%),🟢候选[军用无人机龙头+Switchblade乌克兰验证+深度回调底],Switchblade 巡飞弹+Puma 战术无人机-美军主力
 2026-06-01,AMR无人机视觉,JOBY.US,Joby Aviation,中游系统,④⑦,11.9,USD,extended(1m+30%/3m+16%/rng47%),🟡观望[trigger:回\],eVTOL Toyota 投资+FAA 认证推进中
 2026-06-01,AMR无人机视觉,ACHR.US,Archer Aviation,中游系统,④⑦,6.81,USD,range(1m+19%/3m-9%/rng45%),🟡观望[trigger:商业化里程碑],eVTOL Stellantis 投资
 2026-06-01,AMR无人机视觉,EHGO.US,亿航 EHang,反面参照,反向,1.65,USD,extended/parabolic(3m+708%),🔴跳过[微盘妖股],eVTOL 中概-3m+708% 妖股别追
-2026-06-01,AMR无人机视觉,KTOS.US,Kratos,中游系统,④⑦⑧,64.13,USD,range深度回调(3m-29%/rng15%/off-85%),🟢候选[军用无人机+靶机 国防深度回调],XQ-58 Valkyrie 协同战斗机+Mako高超音速
-2026-06-01,AMR无人机视觉,ISRG.US,Intuitive Surgical,中游系统,④⑧,424.64,USD,range深度回调(1m-7%/3m-14%/rng5%/off-95%),🟡观望[trigger:da Vinci 5 出货放量;但市值~1500亿失⑦],da Vinci 手术机器人全球近垄断但市值过大
+2026-06-01,AMR无人机视觉,KTOS.US,Kratos,中游系统,④⑦⑧,64.13,USD,range深度回调(3m-29%/rng15%/off-52%),🟢候选[军用无人机+靶机 国防深度回调],XQ-58 Valkyrie 协同战斗机+Mako高超音速
+2026-06-01,AMR无人机视觉,ISRG.US,Intuitive Surgical,中游系统,④⑧,424.64,USD,range深度回调(1m-7%/3m-14%/rng5%/off-47%),🟡观望[trigger:da Vinci 5 出货放量;但市值~1500亿失⑦],da Vinci 手术机器人全球近垄断但市值过大
 2026-06-01,AMR无人机视觉,SYK.US,Stryker,中游系统,④⑧,305.09,USD,range深度回调(1m-3%/3m-21%/rng22%),🟡观望[trigger:回正],MAKO 骨科手术机器人-但市值~1100亿失⑦
 2026-06-01,AMR无人机视觉,DE.US,Deere,中游系统,④⑧,542.18,USD,range深度回调(1m-8%/3m-14%/rng40%),🟡观望[trigger:农业精准化营收占比],农业机器人化龙头-但市值~1500亿失⑦
 2026-06-01,AMR无人机视觉,AGCO.US,AGCO,中游系统,④,112.28,USD,range深度回调(1m-7%/3m-18%/rng24%),🟡观望[trigger:精准农业 visibility],精准农业-Fendt 品牌
