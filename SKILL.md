@@ -77,7 +77,7 @@ description: 给定一个投资主题/趋势,复用交易者 Serenity(@aleabitor
 1. **页眉 + 一句话结论**:主题 | 资本开支确定性 | 类别(Bottleneck/Disruption/Evolution) | 数据截止日 | 价格源 | 免责。
 2. **Step1 资本开支确定性**:为什么钱一定花 + 需求来源(政府/商业)。
 3. **核心发现 callout**:最该被先看到的那句(瓶颈在哪层、有没有干净纯 play)。
-4. **Step2 逆向拆链**:5 层链路图,每层标注代表标的与可达性。
+4. **Step2 逆向拆链(网状视图,2026-06-01 加)**:用 `.chain-viz` 容器,5 层 `.chain-layer`(上游材料/上游设备/中游器件/中游系统/下游)横向 grid,每层用 `.cnode[data-id=...]`(data-id 必须用 `forward_picks` 一致的 eodhd_symbol;美股带 `.US` 后缀)。**供货关系写在 `.edge-list` 里**(`data-from / data-to / data-weight` 三档:0.6=主依赖&gt;50% / 0.3=中 20-50% / 0.1=弱&lt;20%),边方向 = 物流方向(上游→下游)。**JS 自动画 SVG 曲线 + 自动判定瓶颈点**(入度≥2 且 出度≤1 → 金色描边),无需手动标。跨主题节点(来自 cross_theme_scan)在 cnode 内加 `<span class="star-inline">⭐</span>`。stage class:`s-early / s-ext / s-range / s-seed`(必须与 leaderboard 一致)。骨架照搬 `reference/report_template.html`。
 5. **候选 leaderboard(核心区)**:**上游咽喉(①②③)** 与 **中游卖铲子(④⑧)** 分两档;**按 stage 排序**(early-uptrend 在前、extended 在后)。每只一行/一卡,必含字段:
    - 代码+现价 · 档位/是什么 · 瓶颈逻辑(命中原型#) · 估值/增长 + **稀释红旗**(亏损+ATM/增发+现金跑道短=标红,如 Redwire $3.5 亿 ATM) · **动量条**(6 月区间位置 + 1m/3m,颜色=stage) · **三档判定 🟢/🟡/🔴** · **目标价/时间框架** · **重估触发条件(🟡 必填)** · 风险。
 6. **Step5 三道闸门**:🔒真瓶颈 / 👁️前机构 / 💰便宜去风险,逐关诚实打分(过/半过/不过)。

@@ -102,6 +102,34 @@
   .cross-row .themes{color:var(--ink-soft)}
   .cross-row .themes em{font-style:normal; color:var(--burg); font-weight:600}
   .cross-row .stars-cell{font-size:18px; color:var(--gold); letter-spacing:-2px}
+  /* === Step 2 · 产业链网状视图(.chain-viz) === */
+  .chain-viz{position:relative; padding:30px 0 26px; margin:14px 0 18px; background:var(--surface-2); border:1px solid var(--line); border-radius:10px}
+  .chain-viz .chain-edges{position:absolute; inset:0; width:100%; height:100%; pointer-events:none; z-index:1; overflow:visible}
+  .chain-layer{display:grid; grid-template-columns:180px 1fr; align-items:center; gap:18px; padding:14px 28px; position:relative; z-index:2}
+  .chain-layer + .chain-layer{margin-top:42px}
+  .chain-layer-down{opacity:.58}
+  .layer-label{font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; color:var(--burg); font-weight:700; text-transform:uppercase; border-right:2px solid var(--line-strong); padding-right:16px; line-height:1.4}
+  .layer-label small{display:block; font-family:var(--body); font-weight:400; color:var(--muted); font-size:10.5px; margin-top:3px; letter-spacing:.02em; text-transform:none}
+  .layer-nodes{display:flex; flex-wrap:wrap; gap:14px}
+  .cnode{background:var(--surface); border:1px solid var(--line-strong); border-radius:7px; padding:9px 14px; min-width:96px; position:relative; font-family:var(--mono); z-index:3; transition:transform .15s, box-shadow .15s; cursor:help}
+  .cnode b{font-size:14px; font-weight:700; color:var(--ink); display:block; letter-spacing:.01em}
+  .cnode small{display:block; font-family:var(--body); font-weight:400; font-size:11.5px; color:var(--muted); margin-top:2px; line-height:1.32; max-width:200px}
+  .cnode.s-early{border-left:3px solid var(--green)}
+  .cnode.s-ext{border-left:3px solid var(--red)}
+  .cnode.s-range{border-left:3px solid var(--amber)}
+  .cnode.s-seed{border-left:3px solid var(--gray); opacity:.78}
+  .cnode.is-bottleneck{box-shadow:0 0 0 2px var(--gold), 0 8px 18px -10px rgba(184,144,46,.5); background:linear-gradient(180deg, var(--surface) 0%, #fcf6e8 100%)}
+  .cnode .star-inline{position:absolute; top:-9px; right:-7px; font-size:13px; color:var(--gold); filter:drop-shadow(0 1px 2px rgba(0,0,0,.25)); letter-spacing:-2px}
+  .cnode:hover{transform:translateY(-1px); box-shadow:0 4px 10px -4px rgba(0,0,0,.15)}
+  .cnode.is-bottleneck:hover{box-shadow:0 0 0 2px var(--gold), 0 8px 18px -8px rgba(184,144,46,.6)}
+  .chain-legend{display:flex; flex-wrap:wrap; gap:18px 24px; padding:14px 28px 4px; font-size:12px; color:var(--muted); font-family:var(--mono); border-top:1px dashed var(--line)}
+  .chain-legend .item{display:flex; align-items:center; gap:7px}
+  .chain-legend .swatch{width:24px; height:3px; border-radius:2px}
+  .chain-legend .sw-thick{background:var(--burg); height:5px}
+  .chain-legend .sw-mid{background:var(--amber); height:3.5px}
+  .chain-legend .sw-thin{background:var(--gray); height:2px}
+  .chain-legend .sw-bn{width:14px; height:14px; border-radius:3px; box-shadow:0 0 0 2px var(--gold); background:var(--surface)}
+  .chain-legend .sw-star{font-size:14px; color:var(--gold); width:auto}
   .mo{font-family:var(--mono)}
   .mo .track{height:8px; background:var(--surface-2); border:1px solid var(--line); border-radius:99px; overflow:hidden; position:relative; margin-bottom:6px}
   .mo .fill{height:100%; border-radius:99px}
@@ -172,19 +200,93 @@
   <p>{{瓶颈落在哪层、有无干净纯 play、暴露路径}}</p>
 </div></div></section>
 
-<!-- ============ Step 2 · 逆向拆链(5 层) ============ -->
+<!-- ============ Step 2 · 逆向拆链(5 层 · 网状视图)============ -->
+<!--
+  填法(每只标的一个 .cnode,每条供货关系一个 <span data-from data-to data-weight>):
+
+  1) 节点 (.cnode):
+     - data-id = forward_picks 里的 eodhd_symbol(美股带 .US,例 AEHR.US)
+     - <b>{{代码}}</b> + <small>{{瓶颈一句话}}</small>
+     - stage class: s-early / s-ext / s-range / s-seed(对应 price.py 的 stage)
+     - 跨主题节点加 <span class="star-inline">⭐</span> 或 ⭐⭐
+     - is-bottleneck 由 JS 根据入度/出度自动加,**不要手动写**
+
+  2) 供货关系 (.edge-list 里的 span):
+     - data-from = 供货方(上游)的 id;data-to = 客户方(下游)的 id
+     - data-weight:0.6=粗/主依赖(>50%) / 0.3=中(20-50%) / 0.1=细(<20%)
+
+  3) 5 层固定顺序:上游材料/代工 → 上游设备 → 中游器件 → 中游系统 → 下游(灰、跳过)
+     某层无标的时,留空 <div class="layer-nodes"></div>
+
+  ※ 边方向 = 物流方向(上游 → 下游)。
+  ※ 入度高+出度低=自动判定瓶颈点,金色描边。
+-->
 <section><div class="wrap rv">
   <div class="eyebrow">Step 2 · 逆向拆链</div>
-  <h2><span class="num">02</span>产业链 5 层</h2>
-  <p class="lead">绿色=上游瓶颈层,琥珀=中游卖铲子,灰色=下游/已拥挤。</p>
-  <div class="chain">
-    <div class="layer down"><span class="lv">下游 · 跳过</span><span><span class="nm">{{终端}}</span> &nbsp;<span class="ds">{{人人都盯}}</span></span></div>
-    <div class="arrow">↑ 往上游钻 ↑</div>
-    <div class="layer mid"><span class="lv">{{中游层}}</span><span><span class="nm">{{标的}}</span> &nbsp;<span class="ds">{{可达性}}</span></span></div>
-    <div class="arrow">↑</div>
-    <div class="layer up"><span class="lv">{{上游层}}</span><span><span class="nm">{{瓶颈环节}}</span> &nbsp;<span class="ds">{{代表标的/可达性}}</span></span></div>
-    <!-- FILL: 补齐 5 层,每层 class = up/mid/down -->
+  <h2><span class="num">02</span>产业链 5 层 — 网状视图</h2>
+  <p class="lead">节点颜色 = stage(绿=早期上行 / 红=已抛物线 / 琥珀=横盘 / 灰=种子或下游);<b style="color:#b8902e">金色描边</b> = 自动判定的瓶颈点(入度≥2,出度≤1);<b style="color:#b8902e">⭐</b> = 跨主题节点(见报告底部)。边粗细 = 依赖度(粗 &gt;50% / 中 20-50% / 细 &lt;20%)。</p>
+  <div class="chain-viz">
+    <svg class="chain-edges" xmlns="http://www.w3.org/2000/svg"></svg>
+
+    <div class="chain-layer" data-layer="upstream-material">
+      <div class="layer-label">上游材料 / 代工<small>原型 ①②</small></div>
+      <div class="layer-nodes">
+        <!-- FILL · 示例(替换/补齐):
+        <div class="cnode s-early" data-id="STM.US"><b>STM</b><small>SiC 综合 #1</small></div>
+        <div class="cnode s-ext" data-id="XFAB.PA"><b>XFAB</b><small>美国独家高产能 SiC 代工</small></div>
+        -->
+      </div>
+    </div>
+
+    <div class="chain-layer" data-layer="upstream-equipment">
+      <div class="layer-label">上游设备<small>原型 ⑥</small></div>
+      <div class="layer-nodes">
+        <!-- FILL · 示例:
+        <div class="cnode s-ext" data-id="AEHR.US"><b>AEHR</b><small>SiC burn-in 测试</small><span class="star-inline">⭐</span></div>
+        -->
+      </div>
+    </div>
+
+    <div class="chain-layer" data-layer="midstream-device">
+      <div class="layer-label">中游器件<small>原型 ④⑧</small></div>
+      <div class="layer-nodes">
+        <!-- FILL -->
+      </div>
+    </div>
+
+    <div class="chain-layer" data-layer="midstream-system">
+      <div class="layer-label">中游系统<small>原型 ④</small></div>
+      <div class="layer-nodes">
+        <!-- FILL -->
+      </div>
+    </div>
+
+    <div class="chain-layer chain-layer-down" data-layer="downstream">
+      <div class="layer-label">下游 · 跳过<small>不是猎物</small></div>
+      <div class="layer-nodes">
+        <!-- FILL -->
+      </div>
+    </div>
+
+    <!-- 边列表(JS 读取并在 .chain-edges SVG 上自动绘制) -->
+    <div class="edge-list" hidden>
+      <!-- FILL · 每条 (上游 → 下游) 供货关系一行,data-weight 三档:
+      <span data-from="XFAB.PA" data-to="POWI.US" data-weight="0.6"></span>  主依赖
+      <span data-from="STM.US"  data-to="POWI.US" data-weight="0.3"></span>  中依赖
+      <span data-from="ON.US"   data-to="POWI.US" data-weight="0.1"></span>  弱依赖
+      -->
+    </div>
+
+    <div class="chain-legend">
+      <div class="item"><span class="swatch sw-thick"></span> 主依赖 &gt;50%</div>
+      <div class="item"><span class="swatch sw-mid"></span> 中等 20-50%</div>
+      <div class="item"><span class="swatch sw-thin"></span> 弱 &lt;20%</div>
+      <div class="item"><span class="sw-bn swatch"></span> 自动瓶颈点(入度≥2 出度≤1)</div>
+      <div class="item"><span class="swatch sw-star">⭐</span> 跨主题节点</div>
+    </div>
   </div>
+
+  <p class="note" style="margin-top:14px"><b>怎么读这张图:</b>沿物流方向"从上往下"读 — 上游供货给中游、中游卖给下游。<b style="color:#b8902e">金色描边节点</b>就是 Step 5"真瓶颈"闸门的物理实体(多家依赖它,它只供少数客户 = 卡脖子);<b>⭐</b> 节点跨多个 capex cycle,产能压力非线性叠加。</p>
 </div></section>
 
 <!-- ============ Step 4-6 · 候选 leaderboard(核心区) ============ -->
@@ -268,8 +370,90 @@
 </div></footer>
 
 <script>
+  /* 滚入动画 */
   const obs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target)}})},{threshold:.12});
   document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+
+  /* === Step 2 网状产业链:SVG 边自动布局 + 瓶颈点自动判定 === */
+  (function(){
+    function layoutChain(){
+      document.querySelectorAll('.chain-viz').forEach(function(viz){
+        var svg = viz.querySelector('.chain-edges');
+        if(!svg) return;
+        var vizRect = viz.getBoundingClientRect();
+        svg.setAttribute('width', vizRect.width);
+        svg.setAttribute('height', vizRect.height);
+        svg.setAttribute('viewBox', '0 0 ' + vizRect.width + ' ' + vizRect.height);
+        svg.innerHTML = '';
+
+        /* 统计入度/出度 */
+        var edges = Array.prototype.slice.call(viz.querySelectorAll('.edge-list [data-from]'));
+        var indeg = {}, outdeg = {};
+        edges.forEach(function(e){
+          var f = e.dataset.from, t = e.dataset.to;
+          if(!f || !t) return;
+          outdeg[f] = (outdeg[f] || 0) + 1;
+          indeg[t]  = (indeg[t]  || 0) + 1;
+        });
+
+        /* 瓶颈点自动判定(入度≥2 且 出度≤1)+ tooltip 标 in/out */
+        viz.querySelectorAll('.cnode').forEach(function(n){
+          var id = n.dataset.id; if(!id) return;
+          n.classList.remove('is-bottleneck');
+          var inD = indeg[id] || 0, outD = outdeg[id] || 0;
+          if(inD >= 2 && outD <= 1) n.classList.add('is-bottleneck');
+          var tip = '入度:' + inD + ' · 出度:' + outD;
+          if(n.classList.contains('is-bottleneck')) tip += ' · 🔒 自动判定为瓶颈点';
+          if(n.querySelector('.star-inline')) tip += ' · ⭐ 跨主题节点';
+          n.title = tip;
+        });
+
+        /* 画边(三档粗细+颜色,bezier 曲线,无箭头标记保持简洁) */
+        edges.forEach(function(e){
+          var fromNode = viz.querySelector('.cnode[data-id="' + e.dataset.from + '"]');
+          var toNode   = viz.querySelector('.cnode[data-id="' + e.dataset.to   + '"]');
+          if(!fromNode || !toNode) return;
+          var fr = fromNode.getBoundingClientRect();
+          var tr = toNode.getBoundingClientRect();
+          /* 上游层在顶部 → 物流方向 from.bottom 到 to.top */
+          var x1 = fr.left + fr.width/2  - vizRect.left;
+          var y1 = fr.bottom              - vizRect.top;
+          var x2 = tr.left + tr.width/2  - vizRect.left;
+          var y2 = tr.top                 - vizRect.top;
+          var cy1 = y1 + (y2 - y1) * 0.55;
+          var cy2 = y2 - (y2 - y1) * 0.55;
+          var w = parseFloat(e.dataset.weight) || 0.3;
+          var stroke, sw;
+          if(w >= 0.5){      stroke = '#7a2e3a'; sw = Math.max(3.0, w * 6); }
+          else if(w >= 0.25){ stroke = '#b97608'; sw = 2.2; }
+          else {              stroke = '#9aa0a6'; sw = 1.4; }
+          var p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          p.setAttribute('d', 'M' + x1 + ',' + y1 + ' C' + x1 + ',' + cy1 + ' ' + x2 + ',' + cy2 + ' ' + x2 + ',' + y2);
+          p.setAttribute('stroke', stroke);
+          p.setAttribute('stroke-width', sw);
+          p.setAttribute('fill', 'none');
+          p.setAttribute('stroke-linecap', 'round');
+          p.setAttribute('opacity', '0.72');
+          svg.appendChild(p);
+        });
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', layoutChain);
+    } else {
+      layoutChain();
+    }
+    var __chainT;
+    window.addEventListener('resize', function(){
+      clearTimeout(__chainT);
+      __chainT = setTimeout(layoutChain, 120);
+    });
+    /* 字体加载后再布局一次(节点高度可能因 webfont 改变) */
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(layoutChain);
+    }
+  })();
 </script>
 </body>
 </html>
