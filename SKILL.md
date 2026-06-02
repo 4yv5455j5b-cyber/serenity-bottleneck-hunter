@@ -128,7 +128,12 @@ description: 给定一个投资主题/趋势,复用交易者 Serenity(@aleabitor
 - `reference/report_template.html` —— **HTML 报告骨架 + 配色模板**(交付物按此生成,见"输出模板(HTML)")
 - `reference/example_commercial_space.md` —— worked example(商业航天),**示范分析内容与颗粒度**(报告格式以 HTML 模板为准)
 - `reference/glossary.md` —— **术语库**(120+ 条预填,LLM 自动 enrich);所有报告的 `<abbr>` 注释来源,新术语必须先 append 再用
-- `reference/company_desc.md` —— **公司简介库**(2026-06-02 加,用户反馈"chain-viz 节点很多公司不熟"驱动);所有 `.cnode` 必须有 `data-desc` 属性(30-60 字中文公司介绍),从本文件取;新标的 LLM 必须先 append 再用(同 glossary 模式,宁滥勿缺)。HTML 模板的 chain-viz JS 自动在 hover 时显示 `data-desc` 作为 tooltip。
+- `reference/company_desc.md` —— **公司业务描述库(static,永久可复用)**(2026-06-02 加,用户挑战 driven 重构):**只存 business**(主营/产业链位置/技术/客户)— **严禁包含 price/stage/跨主题数/市值/估值** 等动态数据。
+  - **拆分纪律(2026-06-02 重构,用户反馈"会让人疑惑或出错")**:
+    - 🟢 **business 描述(static, 复用)**:5 年不变 — 在 `company_desc.md` + `.cnode[data-desc=]` 属性
+    - 🔴 **status 描述(dynamic, 每次重写)**:price/stage/跨主题/估值 — 不进 company_desc.md,只在 `.cnode[data-status=]` 属性,**必须带日期标签** `[YYYY-MM-DD]`
+  - **HTML hover tooltip 同时显示两段**:business(上,无日期)+ status(下,带日期),让读者一眼分清"事实"和"快照"。
+  - 维护:每跑新主题,**只 append business** 到 company_desc.md;dynamic status LLM 在报告里现写。
 - `tracking/forward_picks.csv` + `tracking/score_tracker.py` —— 向前(样本外)跟踪表 + EODHD 打分脚本
 - `tracking/cross_theme_scan.py` + `tracking/cross_theme_index_snapshot.csv` —— **跨主题节点扫描**(Step 4 末尾强制跑)+ 最近一次快照
 
