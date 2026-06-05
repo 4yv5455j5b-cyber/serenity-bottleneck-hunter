@@ -1,4 +1,4 @@
-﻿"record_date","theme","eodhd_symbol","name","tier","archetypes","entry_price","currency","entry_stage","skill_verdict","thesis"
+"﻿""record_date""","theme","eodhd_symbol","name","tier","archetypes","entry_price","currency","entry_stage","skill_verdict","thesis"
 "2026-05-26","商业航天","VNP.TO","5N Plus","上游咽喉","①⑨⑧","47.65","CAD","early-uptrend(已先涨)","观察/小仓(非低位)","西方少数锗镓铟+AZUR空间太阳能/踩中China出口管制"
 "2026-05-26","商业航天","MTRN.US","Materion","上游咽喉","①","222.93","USD","early-uptrend(贴顶)","观察(非纯play)","铍近垄断(反射镜/制导/高超音速)"
 "2026-05-26","商业航天","RDW.US","Redwire","中游卖铲子","④⑧","22.04","USD","extended/parabolic","AVOID(稀释+抛物线)","ROSA太阳能阵/星敏感器但亏损+$3.5亿ATM+1月已+136%"
@@ -48,159 +48,159 @@
 "2026-01-02","光子学","AEHR.US","AEHR Test","上游设备","⑥⑤","22.16","USD","historical-seed","🟢历史种子[Serenity首call验证]","光子器件测试设备+跨SiC复用"
 "2026-01-02","AI算力","NBIS.US","Nebius","中游卖铲子","④⑦⑧","89.95","USD","historical-seed","🟢历史种子[Serenity首call验证]","GPU算力出租+MSFT170亿合同"
 "2026-01-02","商业航天","RKLB.US","Rocket Lab","中游卖铲子","④⑧","75.99","USD","historical-seed","🟢历史种子[Serenity首call验证]","发射+总包(偏Evolution而非Bottleneck)"
-2026-06-01,个人AIPC,MU.US,Micron,上游咽喉,①⑧,971,USD,extended(1m+87%/3m+135%),🔴跳过[已抛物线-LPDDR5X 龙头全市场覆盖],美国独家 LPDDR5X+HBM
-2026-06-01,个人AIPC,000660.KO,SK Hynix,上游咽喉,①,NEEDS-VERIFY,KRW,EODHD数据异常,🟡观望[trigger:EODHD/yfinance交叉验证后再判],LPDDR5X 全球 #2+HBM 领先
-2026-06-01,个人AIPC,005930.KO,Samsung Electronics,上游咽喉,①,317000,KRW,extended(rng100%+1m+40%/3m+46%),🔴排除[巨头综合摊薄+rng顶],半导体+显示综合
-2026-06-01,个人AIPC,TSM.US,TSMC,上游咽喉,①③⑧,418.45,USD,early-uptrend(1m+6%/3m+12%),🔴跳过[太大+下游已覆盖],先进制程+InFO/SoIC 封装
-2026-06-01,个人AIPC,AMKR.US,Amkor,上游咽喉,①③,69.56,USD,early-uptrend(1m-1.5%/3m+45%/rng79%),🟢候选[Serenity风格模式A健康调整 setup],高端封装代工+CoWoS 合作
-2026-06-01,个人AIPC,ASEKY.US,ASE Tech ADR,上游咽喉,①③,13.6,USD,downtrend(3m-21%/off-30%),🟡观望[trigger:重新站回 SMA50+营收 visibility],ASE 封测综合-ADR 流动性弱
-2026-06-01,个人AIPC,LPL.US,LG Display,上游咽喉,①,5.55,USD,early-uptrend(1m+34%/3m+10%/rng98%),🟡观望[trigger:回调到-15%+OLED 笔电屏营收占比],OLED 笔电屏+电视屏综合
-2026-06-01,个人AIPC,0522.HK,ASMPT,上游设备,⑥,194,HKD,early-uptrend但偏热(1m+18%/3m+73%/rng92%),🟡观望[trigger:回HK+CoWoS 设备订单 visibility],高端封装设备 TCB/SiP
-2026-06-01,个人AIPC,ONTO.US,Onto Innovation,上游设备,⑥,258.24,USD,early-uptrend深度回调(1m-9%/3m+19%/off-16%),🟢候选[健康回调期+先进封装计量纯 play],封装/AI 衬底计量设备
-2026-06-01,个人AIPC,AMAT.US,Applied Materials,上游设备,⑥,450.06,USD,early-uptrend(1m+17%/3m+21%/rng98%),🔴排除[综合大厂业务摊薄+市值已5300亿],半导体设备综合
-2026-06-01,个人AIPC,MPWR.US,Monolithic Power,中游卖铲子,④,1566.21,USD,early(1m+3%/3m+37%/rng87%),🟡观望[trigger:AI PC PMIC 营收占比可量化],高效率 PMIC-同时跨 800VDC 主题
-2026-06-01,个人AIPC,QRVO.US,Qorvo,中游卖铲子,④⑧,103.56,USD,early-uptrend(1m+20%/3m+25%/rng86%),🟡观望[trigger:转型连接+电源占比+Apple 客户依赖度],RF+电源转型期
-2026-06-01,个人AIPC,SWKS.US,Skyworks,中游卖铲子,④⑧,77.85,USD,early-uptrend(1m+24%/3m+31%/rng82%),🟡观望[trigger:非 Apple 客户多元化+营收 visibility],RF 综合+Apple 大客户依赖
-2026-06-01,个人AIPC,SIMO.US,Silicon Motion,中游卖铲子,④⑦,276.87,USD,extended(1m+27%/3m+114%/rng93%),🟡观望[trigger:回\ 或本地 AI 推理 SSD 占比可量化],SSD 主控+本地推理 alpha
-2026-06-01,个人AIPC,SYNA.US,Synaptics,中游卖铲子,④,137.28,USD,extended(1m+55%/3m+68%),🟡观望[trigger:回-25%+边缘 AI 营收],触控+边缘 AI
-2026-06-01,个人AIPC,MXL.US,MaxLinear,中游卖铲子,④⑦,92.93,USD,extended/parabolic(3m+433%),🔴跳过[3m+433% 妖股别追],Wi-Fi 7+连接已抛物线
-2026-06-01,个人AIPC,5392.TWO,Auras Technology,中游卖铲子,④⑥,44.55,TWD,range/basing(1m+9.5%/3m-1%/rng57%),🟢候选[Vapor Chamber 真早期+笔电散热瓶颈],散热模组 Vapor Chamber
-2026-06-01,个人AIPC,3324.TW,Aurora Forging,中游卖铲子,④⑥,NEEDS-DATA,TWD,EODHD无数据,🟡观望[trigger:换 yfinance 或台股代码重试],双鸿笔电散热龙头
-2026-06-01,个人AIPC,3483.TWO,Liguid,中游卖铲子,④⑥,95,TWD,range(1m+1.4%/3m+3%/rng75%),🟡观望[trigger:站稳+AI PC 散热订单 visibility],力致散热模组
-2026-06-01,个人AIPC,2382.TW,Quanta,中游系统,④,339,TWD,early(1m+5%/3m+16%/rng91%),🔴跳过[ODM 已被覆盖+毛利率低],笔电 ODM 龙头
-2026-06-01,个人AIPC,2356.TW,Inventec,中游系统,④,70.2,TWD,extended(rng100%/1m+52%/3m+52%),🔴跳过[已抛物线+ODM 摊薄],笔电 ODM
-2026-06-01,个人AIPC,INTC.US,Intel,下游对照,排除,114.68,USD,extended(3m+151%),🔴排除[下游巨头-非Serenity猎物],Lunar Lake/Panther Lake NPU
-2026-06-01,个人AIPC,AMD.US,AMD,下游对照,排除,516.1,USD,extended(1m+53%/3m+158%/rng99%),🔴排除[下游巨头],Ryzen AI 300/Strix Halo
-2026-06-01,个人AIPC,QCOM.US,Qualcomm,下游对照,排除,251.02,USD,extended(1m+61%/3m+76%/rng100%),🔴排除[下游巨头],Snapdragon X Elite/Plus
-2026-06-01,个人AIPC,MSFT.US,Microsoft,下游对照,排除,450.24,USD,early(1m+6%/3m+15%),🔴排除[下游巨头-MC 3T+],Copilot+ 标准制定者
-2026-01-02,AI算力,ARM.US,ARM Holdings,上游咽喉,①②④⑧⑨,114.73,USD,historical-seed,🟢历史种子[ARM IP 跨多主题-数据中心ARM/Graviton/Grace 上游],ARM IP 授权-每片 ARM-based SoC 必交版税
-2026-06-01,个人AIPC,ARM.US,ARM Holdings,上游咽喉,①②④⑧⑨,353.29,USD,extended(1m+75/3m+177/rng100),🟡观望[trigger:回 \-260 深度回调-ARM IP 真单源+跨多主题但已抛物线],ARM IP 授权-Copilot+ PC 全部 ARM-based
-2026-06-01,个人AIPC,CDNS.US,Cadence,上游咽喉,①④,374.93,USD,early(3m+24/rng94顶部),🟡观望[trigger:回 \+NPU 设计客户多元化],EDA 双寡头-NPU/SoC 设计必用
-2026-06-01,个人AIPC,SNPS.US,Synopsys,上游咽喉,①④,475.62,USD,early-uptrend深度回调(1m-1/3m+15/off-11),🟢候选[模式 A 健康调整-EDA 双寡头之一],EDA 双寡头-每个 SoC 设计必用
-2026-06-01,物理AI,603297.SHG,绿的谐波,上游咽喉,①②⑨,130.98,CNY,range基期+1m+15%启动,🟢候选[A股谐波减速器近垄断+模式A启动信号],人形机器人核心关节减速器-绿的全球第三+国内唯一规模量产
-2026-06-01,物理AI,603667.SHG,五洲新春,上游咽喉,①⑨,71.76,CNY,basing启动(1m+11.9%/3m-10.3%/off-21%),🟢候选[行星滚柱丝杠潜力+深度回调真basing],人形机器人线性执行器核心-丝杠潜力股
-2026-06-01,物理AI,603009.SHG,北特科技,上游咽喉,①⑨,48.26,CNY,basing启动(1m+6%/3m-10%/off-19%),🟢候选[行星滚柱丝杠潜力+真basing],行星滚柱丝杠拓展+模式A早期
-2026-06-01,物理AI,002338.SHE,奥普光电,上游咽喉,①⑨,55.75,CNY,range深度回调(1m-9%/3m-0.4%/off-18%),🟡观望[trigger:1m转正+人形机器人编码器订单visibility],A股光电编码器领先-纯play
-2026-06-01,物理AI,603728.SHG,鸣志电器,上游咽喉,①⑨,61.32,CNY,downtrend(1m+4.9%/3m-11.3%/rng29%),🟡观望[trigger:站回SMA50+空心杯电机订单],空心杯电机A股龙头-人形机器人精细执行器
-2026-06-01,物理AI,688160.SHG,步科股份,上游咽喉,①⑨,110.93,CNY,downtrend(1m+8%/3m-11.5%/rng28%),🟡观望[trigger:回到rng50%以上+无框力矩电机量产订单],无框力矩电机+伺服-人形关节直驱
-2026-06-01,物理AI,RSW.LSE,Renishaw,上游咽喉,①,5300,GBX,early-uptrend贴顶(rng99%/3m+23%),🟡观望[trigger:回调-15%以上],英国高精度编码器全球龙头-业务多元摊薄
-2026-06-01,物理AI,ADI.US,Analog Devices,上游设备,④⑧,413.85,USD,early-uptrend(1m+6%/3m+16%/rng89%),🟡观望[trigger:MEMS IMU机器人营收占比可量化],MEMS+ISP综合-机器人感知+模拟链路-巨头摊薄
-2026-06-01,物理AI,TTDKY.US,TDK ADR,上游设备,④⑧,25.91,USD,extended/parabolic(1m+55%/3m+67%/rng100%),🔴跳过[已抛物线],MEMS IMU(InvenSense)+电池+磁头综合-需求被市场认知
-2026-06-01,物理AI,6324.T,Harmonic Drive,上游咽喉,①②,7780,JPY,extended(1m+64%/3m+70%/rng89%-yfinance),🔴跳过[已抛物线-日股龙头先涨],日本谐波减速器全球龙头-人形机器人关节核心(先涨案例-印证主题成立)
-2026-06-01,物理AI,6268.T,Nabtesco,上游咽喉,①②,5541,JPY,early-uptrend(1m+10%/3m+14%/rng80%-yfinance),🟡观望[trigger:小盘标的优先-Nabtesco MC偏大失⑦],日本RV减速器全球龙头-机器人本体大型关节
-2026-06-01,物理AI,AMBA.US,Ambarella,中游卖铲子,④⑦,72.18,USD,early-uptrend(1m+9.5%/3m+19.6%/rng52%),🟢候选[机器人视觉SoC纯play+健康位置],边缘视觉SoC-机器人/自动驾驶/安防
-2026-06-01,物理AI,002747.SHE,埃斯顿,中游系统,④⑧,27.72,CNY,early-uptrend(1m+33%/3m+17%/rng78%),🟡观望[trigger:1m偏热-回调-15%后],A股工业机器人本体龙头-1m+33%已启动
-2026-06-01,物理AI,ARM.US,ARM Holdings,IP层,①②④⑧⑨,353.29,USD,extended(1m+75%/3m+177%/rng100%),🟡观望[trigger:回\-260],ARM IP-NVDA Jetson/Grace/机器人SoC普适-跨主题⭐扩展到第3个主题
-2026-06-01,物理AI,MPWR.US,Monolithic Power,中游卖铲子,④,1566.21,USD,early(1m+3%/3m+37%),🟡观望[trigger:回\+机器人PMIC营收占比],高效PMIC-机器人功率管理跨主题⭐扩展第3个主题
-2026-06-01,物理AI,NVDA.US,NVIDIA,下游对照,排除,211.14,USD,early(1m+0.9%/3m+19%),🔴排除[下游巨头-Cosmos主推但市值4T+全市场覆盖],Physical AI主推-Cosmos/Jetson/Isaac/Omniverse
-2026-06-01,物理AI,TSLA.US,Tesla,下游对照,排除,435.79,USD,early(1m+17%/3m+8%),🔴排除[下游巨头-Optimus主推但已被覆盖],Optimus人形机器人+FSD
-2026-06-01,物理AI,ISRG.US,Intuitive Surgical,下游对照,排除,424.64,USD,downtrend(1m-6%/3m-16%/rng3%),🔴排除[非Serenity猎物],医疗机器人da Vinci-估值已显著调整但不是主题猎物
-2026-06-01,物理AI,6954.T,Fanuc,中游系统,④⑧,8081,JPY,early-uptrend(1m+16%/3m+15%/rng81%-yfinance),🟡观望[trigger:小盘标的优先-Fanuc MC偏大失⑦],日本工业机器人龙头-下游本体厂
-2026-06-01,物理AI,6506.T,Yaskawa,中游系统,④⑧,7140,JPY,early-uptrend偏热(1m+33%/3m+32%-yfinance),🟡观望[trigger:回调-15%],日本伺服+工业机器人本体-1m+33%偏热
-2026-06-01,自动驾驶L4,HSAI.US,Hesai 禾赛,上游咽喉,①⑦⑨,18.9,USD,range深度底(1m-16.7%/3m-31%/rng11%/off-36%),🟢候选[LiDAR 中概龙头深度回调-Serenity ⑨地缘错杀经典],中国LiDAR出货全球#1-车规+RoboTaxi双线-中美关系打压被错杀
-2026-06-01,自动驾驶L4,LAZR.US,Luminar,反面参照,反向,0.09,USD,实质清盘(1m-90%/3m-95%),🔴排除[财务失败案例],技术故事破灭+财务危机-避开
-2026-06-01,自动驾驶L4,INVZ.US,Innoviz,上游咽喉,①,0.76,USD,range(1m+14%/3m-15.7%/rng22%),🟡观望[trigger:订单 visibility+财务转正],小盘 LiDAR 横盘等故事
-2026-06-01,自动驾驶L4,AEVA.US,Aeva,上游咽喉,①⑦,28.18,USD,extended/parabolic(1m+76%/3m+94%/rng92%),🔴跳过[已抛物线],FMCW LiDAR 技术升级路线-已被认知
-2026-06-01,自动驾驶L4,OUST.US,Ouster,上游咽喉,①,46.05,USD,extended(1m+71%/3m+127%/rng96%),🔴跳过[已抛物线],数字 LiDAR-已被认知
-2026-06-01,自动驾驶L4,INDI.US,Indie Semiconductor,上游咽喉,①④,4.99,USD,extended(3m+47%/rng84%),🟡观望[trigger:回-20%],车规模拟+RF 已起步
-2026-06-01,自动驾驶L4,603501.SHG,韦尔股份,上游咽喉,①⑧⑨,95,CNY,range深度回调启动(1m-8.6%/3m-22.5%/rng12%/off-32%),🟢候选[A股 CIS 车规龙头深度回调底+国产替代],OmniVision 车规 CIS 全球#3+CMOS 图像传感器深度国产替代
-2026-06-01,自动驾驶L4,TRMB.US,Trimble,上游设备,①④,56.41,USD,range深度回调(1m-16%/3m-17.5%/rng11%/off-36%),🟢候选[高精度 GNSS 定位被深度回调-但业务摊薄需注意],GNSS+测绘 综合 - 自动驾驶+精准农业+建筑测量
-2026-06-01,自动驾驶L4,HXGBY.US,Hexagon ADR,上游设备,①④,10.8,USD,range(rng53%/1m+0%/3m-1.5%),🟡观望[trigger:1m转正],瑞典测绘综合-业务摊薄
-2026-06-01,自动驾驶L4,MBLY.US,Mobileye,中游器件,④⑦⑧,10.34,USD,early-uptrend(1m+19%/3m+24%/rng49%),🟢候选[模式 A 健康入场+EyeQ 系列辅助驾驶 80% 全球市占],EyeQ ASIC+全球辅助驾驶第一+L4 SuperVision
-2026-06-01,自动驾驶L4,AMBA.US,Ambarella,中游卖铲子,④⑦,72.18,USD,early-uptrend(1m+5%/3m+18%/rng50%),🟢候选+跨主题⭐[跨物理AI+自动驾驶],边缘视觉 SoC-同时跨人形机器人+自动驾驶+安防 多 capex cycle
-2026-06-01,自动驾驶L4,NXPI.US,NXP,中游器件,④⑧,321.35,USD,extended(1m+9.5%/3m+43%/rng88%),🟡观望[trigger:回\],车规 MCU 龙头-下游覆盖广业务摊薄
-2026-06-01,自动驾驶L4,688256.SHG,寒武纪,中游器件,④⑨,1310,CNY,extended(3m+12%/rng34%),🔴跳过[市值~万亿超大-非Serenity猎物],AI 芯片国产-但市值过大失⑦
-2026-06-01,自动驾驶L4,AUR.US,Aurora,中游系统,④⑦,7.34,USD,extended(1m+25%/3m+55%/rng75%),🟡观望[trigger:回\+商业卡车 L4 实际营收 visibility],自动驾驶卡车 L4 唯一上市纯 play
-2026-06-01,自动驾驶L4,CRNC.US,Cerence,中游系统,④⑦,12.86,USD,extended/parabolic(1m+41%/3m+66%/rng94%),🟡观望[trigger:回-30%],车载语音 AI-Nuance 拆分
-2026-06-01,自动驾驶L4,ARM.US,ARM Holdings,IP层,①②④⑧⑨,353.29,USD,extended(1m+75%/3m+177%/rng100%),🟡观望[trigger:回\-260],ARM IP-Mobileye EyeQ+NVDA Drive+所有车载 SoC 必交版税-跨主题⭐⭐⭐升级
-2026-06-01,自动驾驶L4,CDNS.US,Cadence,IP层,①④,374.93,USD,early-uptrend(3m+24%/rng94%顶部),🟡观望[trigger:回\],EDA 双寡头-车规 SoC 设计必用-跨主题
-2026-06-01,自动驾驶L4,SNPS.US,Synopsys,IP层,①④,475.62,USD,early-uptrend深度回调(off-11%),🟢候选[模式 A 健康调整-车规芯片设计普适],EDA 双寡头-车规 SoC 设计必用-跨主题
-2026-06-01,自动驾驶L4,MPWR.US,Monolithic Power,中游卖铲子,④,1566.21,USD,early(3m+37%),🟡观望[跨主题⭐⭐⭐升级],高效 PMIC-车规电源跨主题
-2026-06-01,自动驾驶L4,NVDA.US,NVIDIA,下游对照,排除,211.14,USD,early(3m+15%),🔴排除[Drive Thor 平台主推但市值4T+],下游 AI 计算-NVDA Drive Thor 自动驾驶 SoC
-2026-06-01,自动驾驶L4,TSLA.US,Tesla,下游对照,排除,435.79,USD,early(1m+14%/3m+8%),🔴排除[FSD/Robotaxi 主题已被市场覆盖],FSD 软件订阅+Cybercab
-2026-06-01,AMR无人机视觉,SYM.US,Symbotic,中游系统,④⑦,46.42,USD,range深度底(1m-21%/3m-14%/rng5%/off-47%),🟡观望[trigger:1m转正+Walmart合同visibility],仓储自动化龙头-Walmart  合同但短期跌势
-2026-06-01,AMR无人机视觉,AUTO.OL,AutoStore,中游系统,④⑦,13.15,NOK,extended(1m+12%/3m+14%/rng85%),🟡观望,挪威仓储自动化龙头-Ocado/Best Buy 客户
-2026-06-01,AMR无人机视觉,CGNX.US,Cognex,中游器件,④⑦,65.85,USD,extended(1m+19%/3m+22%/rng84%),🟡观望[trigger:回调-20%],美国机器视觉龙头-工业精密检测
-2026-06-01,AMR无人机视觉,6861.T,Keyence,中游器件,④⑦,80220,JPY,extended(1m+9%/3m+22%/rng88%),🟡观望[trigger:回调],日本机器视觉龙头-毛利率55% 业内最高
-2026-06-01,AMR无人机视觉,002415.SHE,海康威视,中游系统,④⑦⑨,30.56,CNY,range深度回调启动(1m-12%/3m-3%/rng23%/off-19%),🟢候选[Entity List地缘错杀+国产替代+rng23%深度底],全球安防/机器视觉龙头-被Entity List打压但产业地位未变
-2026-06-01,AMR无人机视觉,002236.SHE,大华股份,中游系统,④⑦⑨,16.69,CNY,range深度回调(1m-8%/3m-13%/rng7%/off-21%),🟡观望[trigger:1m转正+海康跟随],全球安防#2-同海康但更小盘
-2026-06-01,AMR无人机视觉,AVAV.US,AeroVironment,中游系统,④⑦,207.24,USD,range深度回调(1m+6%/3m-0.5%/rng20%/off-49%),🟢候选[军用无人机龙头+Switchblade乌克兰验证+深度回调底],Switchblade 巡飞弹+Puma 战术无人机-美军主力
-2026-06-01,AMR无人机视觉,JOBY.US,Joby Aviation,中游系统,④⑦,11.9,USD,extended(1m+30%/3m+16%/rng47%),🟡观望[trigger:回\],eVTOL Toyota 投资+FAA 认证推进中
-2026-06-01,AMR无人机视觉,ACHR.US,Archer Aviation,中游系统,④⑦,6.81,USD,range(1m+19%/3m-9%/rng45%),🟡观望[trigger:商业化里程碑],eVTOL Stellantis 投资
-2026-06-01,AMR无人机视觉,EHGO.US,亿航 EHang,反面参照,反向,1.65,USD,extended/parabolic(3m+708%),🔴跳过[微盘妖股],eVTOL 中概-3m+708% 妖股别追
-2026-06-01,AMR无人机视觉,KTOS.US,Kratos,中游系统,④⑦⑧,64.13,USD,range深度回调(3m-29%/rng15%/off-52%),🟢候选[军用无人机+靶机 国防深度回调],XQ-58 Valkyrie 协同战斗机+Mako高超音速
-2026-06-01,AMR无人机视觉,ISRG.US,Intuitive Surgical,中游系统,④⑧,424.64,USD,range深度回调(1m-7%/3m-14%/rng5%/off-47%),🟡观望[trigger:da Vinci 5 出货放量;但市值~1500亿失⑦],da Vinci 手术机器人全球近垄断但市值过大
-2026-06-01,AMR无人机视觉,SYK.US,Stryker,中游系统,④⑧,305.09,USD,range深度回调(1m-3%/3m-21%/rng22%),🟡观望[trigger:回正],MAKO 骨科手术机器人-但市值~1100亿失⑦
-2026-06-01,AMR无人机视觉,DE.US,Deere,中游系统,④⑧,542.18,USD,range深度回调(1m-8%/3m-14%/rng40%),🟡观望[trigger:农业精准化营收占比],农业机器人化龙头-但市值~1500亿失⑦
-2026-06-01,AMR无人机视觉,AGCO.US,AGCO,中游系统,④,112.28,USD,range深度回调(1m-7%/3m-18%/rng24%),🟡观望[trigger:精准农业 visibility],精准农业-Fendt 品牌
-2026-06-01,AMR无人机视觉,CAT.US,Caterpillar,反面参照,反向,875.87,USD,extended(3m+16%/rng85%),🔴排除[巨头综合摊薄],建筑机械下游
-2026-06-01,AMR无人机视觉,ABBNY.US,ABB ADR,中游系统,④⑧,106.74,USD,extended(rng95%/3m+18%),🔴跳过[巨头综合摊薄+rng顶],工业机器人四大家族
-2026-06-01,AMR无人机视觉,AMZN.US,Amazon,反面参照,反向,270.64,USD,extended(3m+30%/rng90%),🔴排除[下游巨头-Kiva/Astro自研],仓储自动化下游应用方
-2026-06-01,AMR无人机视觉,ARM.US,ARM Holdings,IP层,①②④⑧⑨,353.29,USD,extended(已抛物线),🟡观望[trigger:回\-260],ARM IP-AMR/无人机/视觉 SoC 普适-跨5主题升级
-2026-06-01,AMR无人机视觉,MPWR.US,Monolithic Power,中游卖铲子,④,1566.21,USD,early(3m+37%),🟡观望[trigger:回\],PMIC-AMR/视觉机器人电源跨5主题升级
-2026-06-01,AMR无人机视觉,AMBA.US,Ambarella,中游卖铲子,④⑦,72.18,USD,early-uptrend(rng50%),🟢候选+跨主题⭐[工业视觉SoC+AMR/无人机视觉 SoC],边缘视觉 SoC-工业/物流/无人机视觉跨主题
-2026-06-02,AIAgent经济,MNDY.US,monday.com,中游系统,④⑦,95.47,USD,basing-momentum(1m+31%/3m+30%/rng35%/off-42%),🟢候选[模式A启动+应用层深度回调],work mgmt+AI workflow agents-深度回调启动信号
-2026-06-02,AIAgent经济,APPN.US,Appian,中游系统,④⑦,27.77,USD,basing-momentum(1m+23%/3m+3%/rng36%/off-37%),🟢候选[低代码 Agent 平台深度回调启动],Process Automation+AI agents 低代码平台
-2026-06-02,AIAgent经济,PATH.US,UiPath,中游系统,④⑦,13.1,USD,basing-momentum(1m+23%/3m+19%/rng37%/off-34%),🟢候选[RPA转 AI agents 启动 但历史包袱],RPA 龙头转 Agentic Automation
-2026-06-02,AIAgent经济,MDB.US,MongoDB,中游器件,④⑦,403.88,USD,extended(1m+53%/3m+60%/rng82%),🟡观望+跨主题⭐[trigger:回\],Atlas Vector-RAG 必备但已被认知
-2026-06-02,AIAgent经济,CRM.US,Salesforce,中游系统,④⑧,209.6,USD,range中度回调(1m+14%/3m+7%/rng44%/off-22%),🟡观望[trigger:Agentforce ARR visibility],Agentforce 2024 末发布尚早期
-2026-06-02,AIAgent经济,PLTR.US,Palantir,中游系统,④⑧,160.65,USD,range中位(1m+11%/3m+9%/rng50%),🟡观望[trigger:政府 Agent 订单],AIP+Foundry 但 MC ~3500亿过大
-2026-06-02,AIAgent经济,HUBS.US,HubSpot,中游系统,④⑦,262.2,USD,range深度回调(1m+9%/3m-5%/rng38%/off-36%),🟡观望[trigger:营销 Agent ARR],HubSpot AI marketing/sales agents
-2026-06-02,AIAgent经济,NICE.US,NICE Ltd,中游系统,④⑧,99.45,USD,range深度回调(1m-12%/3m-20%/rng29%),🟡观望[trigger:1m转正],客服自动化 AI - 深度回调
-2026-06-02,AIAgent经济,ZS.US,Zscaler,中游系统,④⑦,155.71,USD,range深度回调(1m+11%/3m+0.7%/rng29%/off-39%),🟡观望[trigger:AI agents 安全护栏 ARR],AI agents API 安全防护
-2026-06-02,AIAgent经济,BILL.US,BILL Holdings,中游系统,④,39.51,USD,range深度回调(1m+1%/3m-10%/rng23%/off-31%),🟡观望[trigger:1m启动],SMB 财务 AI 自动化
-2026-06-02,AIAgent经济,AI.US,C3.ai,中游系统,④⑦,11.75,USD,extended(1m+28%/3m+29%),🟡观望[trigger:回-15%],企业 AI agents 但执行历史一般
-2026-06-02,AIAgent经济,GTLB.US,GitLab,中游系统,④⑦,33.79,USD,extended(1m+40%/3m+27%),🟡观望[trigger:回\],GitLab Duo 开发者 Agent
-2026-06-02,AIAgent经济,FSLY.US,Fastly,中游器件,④,19.08,USD,range深度回调(1m-32%/3m-10%/off-45%),🟡观望[trigger:1m止跌],edge compute 深度调整 待启动
-2026-06-02,AIAgent经济,SOUN.US,SoundHound,中游系统,④⑦,9.25,USD,extended边缘(1m-3%/3m+9%),🟡观望[trigger:营收兑现],语音 AI agents-市值已大幅波动
-2026-06-02,AIAgent经济,NOW.US,ServiceNow,中游系统,④⑧,NEEDS-VERIFY,USD,EODHD数据异常显示\-真实价应~\,🟡观望[trigger:EODHD verify],Now Assist 企业流程 Agent - 数据需重 verify
-2026-06-02,AIAgent经济,ARM.US,ARM Holdings,IP层,①②④⑧⑨,408.85,USD,extended(1m+94%/3m+236%/rng96%),🔴跳过[已极度抛物线 但跨6主题⭐⭐升级],ARM IP - AI Agent 推理也基于 ARM SoC
-2026-06-02,AIAgent经济,MPWR.US,MPWR,中游卖铲子,④,1542.39,USD,extended(rng79%/3m+44%),🟡观望[跨6主题⭐⭐升级],PMIC - 数据中心 Agent 推理电源
-2026-06-02,AIAgent经济,CDNS.US,Cadence,IP层,①④,414.16,USD,extended(rng100%/3m+38%),🟡观望[跨3主题⭐升级],EDA - LLM 推理芯片设计
-2026-06-02,AIAgent经济,SNPS.US,Synopsys,IP层,①④,492.29,USD,extended(rng71%/off-9%),🟡观望[跨3主题⭐升级],EDA - 同 CDNS
-2026-06-02,AIAgent经济,DDOG.US,Datadog,中游器件,④⑦,277.49,USD,extended(1m+98%/3m+148%/rng99%),🔴跳过[已抛物线 LLM observability 被市场认知],LLM observability+APM agents 监控
-2026-06-02,AIAgent经济,MSFT.US,Microsoft,下游对照,排除,460.52,USD,extended(rng76%),🔴排除[下游巨头],Copilot Studio/Azure AI Foundry
-2026-06-02,AIAgent经济,GOOGL.US,Google,下游对照,排除,376.37,USD,extended(rng76%),🔴排除[下游巨头],Gemini Agents
-2026-06-02,AIAgent经济,AMZN.US,Amazon,下游对照,排除,261.26,USD,extended(rng79%),🔴排除[下游巨头],AWS Bedrock Agents
-2026-06-02,AIAgent经济,NVDA.US,NVIDIA,下游对照,排除,224.36,USD,extended(rng83%),🔴排除[下游巨头-Agent推理 GPU],NIM/AI Workbench
-2026-06-02,AIAgent经济,SNOW.US,Snowflake,中游器件,④,280.16,USD,extended(1m+99%/3m+69%/rng97%),🔴跳过[已抛物线],Cortex AI - 数据 Agent
-2026-06-02,AIAgent经济,NET.US,Cloudflare,中游器件,④,270.82,USD,extended(rng100%/3m+51%),🔴跳过[已抛物线-AI Gateway 被认知],AI Gateway + Workers AI
-2026-06-02,AIAgent经济,FROG.US,JFrog,中游器件,④,88.31,USD,extended(1m+77%/3m+109%/rng100%),🔴跳过[已抛物线],Software supply + AI
-2026-06-02,AIAgent经济,CFLT.US,Confluent,中游器件,④,30.99,USD,extended/at-top(rng100%),🔴跳过[已贴顶],Kafka streaming
-2026-06-02,AIAgent经济,ESTC.US,Elastic,中游器件,④,68.06,USD,extended(1m+40%/3m+29%),🔴跳过[已偏热],Search+vector
-2026-06-02,AIAgent经济,APP.US,AppLovin,中游系统,④,613.7,USD,extended(3m+40%),🔴跳过[已偏热-广告非纯 Agent],AI 广告
-2026-06-02,AIAgent经济,ZI.US,ZoomInfo,中游系统,④,10.55,USD,range贴顶(rng94%),🔴跳过[小盘+rng94%],销售 AI - 商业表现待复核
-2026-06-02,AIAgent经济,META.US,Meta,下游对照,排除,600.47,USD,range(rng36%),🔴排除[下游巨头-Llama 自营],开源 LLM 持有方
-2026-06-02,AIAgent经济,S.US,SentinelOne,中游系统,④⑦,17.81,USD,extended边缘(1m+19%/3m+34%),🔴跳过[偏热],AI 安全
-2026-06-02,AIAgent经济,DBX.US,Dropbox,中游系统,④,28.91,USD,extended(1m+16%/3m+10%/rng85%),🔴跳过[偏热],Dropbox AI 文档 agent
-2026-06-02,AIAgent中国,1357.HK,美图公司,中游应用,④⑦,5.5,HKD,basing-momentum(1m+32%/3m-3%/rng27%/off-41%),🟢候选[模式A真启动+美颜SaaS 商业化],美图秀秀+AI设计工具订阅制商业化
-2026-06-02,AIAgent中国,688111.SHG,金山办公,中游应用,④⑦⑨,256.1,CNY,basing-momentum启动(1m+2.7%/3m-15%/rng16%/off-38%),🟢候选[WPS AI 国产 Copilot+深度回调启动],WPS Office + WPS AI 类 Copilot 国产替代
-2026-06-02,AIAgent中国,0268.HK,金蝶国际,中游应用,④⑦⑧,8.68,HKD,basing-momentum(1m+1.5%/3m-12%/rng17%/off-49%),🟢候选[企业 SaaS 苍穹 Agent+深度回调启动],企业 ERP+云 SaaS 苍穹 AI Agent
-2026-06-02,AIAgent中国,688787.SHG,海天瑞声,上游材料,①④⑦,138.11,CNY,basing-momentum(1m+7.5%/3m-9%/rng39%/off-30%),🟢候选[AI 训练数据集纯 play+1m 启动],语音/视觉/NLP AI 训练数据集
-2026-06-02,AIAgent中国,300033.SHE,同花顺,中游应用,④⑦,228.87,CNY,range深度底(1m-2%/3m-31%/rng4%/off-47%),🟡观望[trigger:1m 转正],金融信息服务+i问财 AI
-2026-06-02,AIAgent中国,300229.SHE,拓尔思,中游 infra,④⑦,17.37,CNY,range深度底(1m-3%/3m-25%/rng6%/off-44%),🟡观望[trigger:1m 转正],NLP+知识图谱+政务/媒体大模型应用
-2026-06-02,AIAgent中国,688561.SHG,奇安信,中游 infra,④⑦,27.69,CNY,range深度底(1m-6%/3m-22%/rng7%/off-38%),🟡观望[trigger:1m 转正+AI 安全 ARR],网络安全+AI agents API 安全护栏
-2026-06-02,AIAgent中国,600588.SHG,用友网络,中游应用,④⑦⑨,11.41,CNY,range深度底(1m-4%/3m-20%/rng16%/off-40%),🟡观望[trigger:YonGPT 营收 visibility],企业 ERP+YonGPT 大模型
-2026-06-02,AIAgent中国,002410.SHE,广联达,中游应用,④⑦,10.11,CNY,range深度底(1m-8%/3m-28%/rng10%/off-38%),🟡观望[trigger:1m 转正],建筑 BIM SaaS+AI
-2026-06-02,AIAgent中国,603039.SHG,泛微网络,中游应用,④⑦,40.3,CNY,range深度底(1m-11%/3m-14%/rng12%/off-46%),🟡观望[trigger:1m 转正],OA 协同办公+AI
-2026-06-02,AIAgent中国,002315.SHE,焦点科技,中游应用,④⑦,28.29,CNY,range极深底(1m-7%/3m-38%/rng5%/off-55%),🟡观望[trigger:1m 转正+电商订单],跨境电商 SaaS+AI 营销
-2026-06-02,AIAgent中国,2013.HK,微盟集团,中游应用,④⑦⑧,1.36,HKD,range深度底(1m-7%/3m-29%/rng8%/off-48%),🟡观望[trigger:腾讯生态营销 ARR],微信营销 SaaS+AI
-2026-06-02,AIAgent中国,0020.HK,商汤,中游应用,④⑦,1.76,HKD,range深度底(1m-11%/3m-28%/rng12%/off-37%),🟡观望[trigger:商量大模型 B 端订单],商量大模型(日日新)
-2026-06-02,AIAgent中国,688369.SHG,致远互联,中游应用,④⑦,22.37,CNY,range深度底(1m-8%/3m-14%/rng12%/off-38%),🟡观望[trigger:1m 转正],OA 协同办公中型厂商
-2026-06-02,AIAgent中国,688158.SHG,优刻得,中游 infra,④⑦,38.74,CNY,range回调中(1m-15%/3m-4%/rng53%/off-28%),🟡观望[trigger:1m 转正],第三方云+AI 算力服务
-2026-06-02,AIAgent中国,000977.SHE,浪潮信息,上游材料,①⑧,64.14,CNY,range中位(1m-11%/3m+0.4%/rng36%/off-19%),🟡观望[trigger:1m 转正+AI 服务器订单],AI 服务器+海若大模型+元脑 Agent 平台
-2026-06-02,AIAgent中国,603019.SHG,中科曙光,上游材料,①⑧,85.4,CNY,range深度回调(1m-6%/3m-7%/rng31%/off-19%),🟡观望[trigger:1m 转正],AI 服务器+HPC
-2026-06-02,AIAgent中国,002439.SHE,启明星辰,中游 infra,④⑧,14.48,CNY,range(1m-4.5%/3m-0.1%/rng42%/off-16%),🟡观望[trigger:1m 转正+中移动协同],网络安全(中移动控股)
-2026-06-02,AIAgent中国,688030.SHG,山石网科,中游 infra,④,16.81,CNY,range小幅启动(1m+2.8%/3m-7%/rng36%/off-22%),🟡观望[trigger:1m 持续],网络安全小盘(下一代防火墙)
-2026-06-02,AIAgent中国,688256.SHG,寒武纪,上游材料,①④⑨,1238,CNY,range(1m-12.6%/3m+5%/rng27%/off-37%),🟡观望+跨主题⭐[同时跨自动驾驶],A 股 AI 芯片(思元推理)-市值~1.5万亿过大
-2026-06-02,AIAgent中国,688041.SHG,海光信息,上游材料,①⑨,275.36,CNY,extended边缘(rng49%/1m-1.2%/off-23%),🟡观望[trigger:回调],AI/CPU 芯片国产替代(深算 GPU)
-2026-06-02,AIAgent中国,300308.SHE,中际旭创,上游材料,①④,1130,CNY,extended(1m+34%/3m+112%/rng90%),🔴跳过+跨主题⭐[已抛物线-光模块全球龙头],800G/1.6T 光模块龙头-AI 数据中心主供
-2026-06-02,AIAgent中国,603296.SHG,华勤技术,上游材料,①④,117.04,CNY,extended(1m+14%/3m+27%/rng88%),🔴跳过[已抛物线],AI 服务器 ODM 代工
-2026-06-02,AIAgent中国,9988.HK,阿里巴巴,下游对照,排除,122.8,HKD,range深度底(1m-2.5%/3m-14%/rng9%/off-30%),🔴排除[下游巨头-但 rng9% 历史底-非 Serenity 猎物],电商+阿里云+通义千问+百炼 Agent
-2026-06-02,AIAgent中国,0700.HK,腾讯,下游对照,排除,436,HKD,range深度底(1m-6.8%/3m-15%/rng7%/off-32%),🔴排除[下游巨头-rng7% 历史底但 MC 4 万亿],微信+游戏+混元大模型
-2026-06-02,AIAgent中国,9888.HK,百度,下游对照,排除,129.1,HKD,range中位(1m+8.8%/3m+4.6%/rng45%),🔴排除[下游 LLM 巨头],搜索+文心一言+千帆 Agent
-2026-06-02,AIAgent中国,3690.HK,美团,下游对照,排除,78.25,HKD,range深度回调(1m-6%/3m-2.7%/rng17%/off-27%),🔴排除[下游巨头],本地生活+LongCat+内部 agents
-2026-06-02,AIAgent中国,9618.HK,京东,下游对照,排除,112.4,HKD,range(1m-3.4%/3m+8%/rng45%/off-15%),🔴排除[下游巨头],电商+京东云+言犀大模型
+"2026-06-01","个人AIPC","MU.US","Micron","上游咽喉","①⑧","971","USD","extended(1m+87%/3m+135%)","🔴跳过[已抛物线-LPDDR5X 龙头全市场覆盖]","美国独家 LPDDR5X+HBM"
+"2026-06-01","个人AIPC","000660.KO","SK Hynix","上游咽喉","①","NEEDS-VERIFY","KRW","EODHD数据异常","🟡观望[trigger:EODHD/yfinance交叉验证后再判]","LPDDR5X 全球 #2+HBM 领先"
+"2026-06-01","个人AIPC","005930.KO","Samsung Electronics","上游咽喉","①","317000","KRW","extended(rng100%+1m+40%/3m+46%)","🔴排除[巨头综合摊薄+rng顶]","半导体+显示综合"
+"2026-06-01","个人AIPC","TSM.US","TSMC","上游咽喉","①③⑧","418.45","USD","early-uptrend(1m+6%/3m+12%)","🔴跳过[太大+下游已覆盖]","先进制程+InFO/SoIC 封装"
+"2026-06-01","个人AIPC","AMKR.US","Amkor","上游咽喉","①③","69.56","USD","early-uptrend(1m-1.5%/3m+45%/rng79%)","🟢候选[Serenity风格模式A健康调整 setup]","高端封装代工+CoWoS 合作"
+"2026-06-01","个人AIPC","ASEKY.US","ASE Tech ADR","上游咽喉","①③","13.6","USD","downtrend(3m-21%/off-30%)","🟡观望[trigger:重新站回 SMA50+营收 visibility]","ASE 封测综合-ADR 流动性弱"
+"2026-06-01","个人AIPC","LPL.US","LG Display","上游咽喉","①","5.55","USD","early-uptrend(1m+34%/3m+10%/rng98%)","🟡观望[trigger:回调到-15%+OLED 笔电屏营收占比]","OLED 笔电屏+电视屏综合"
+"2026-06-01","个人AIPC","0522.HK","ASMPT","上游设备","⑥","194","HKD","early-uptrend但偏热(1m+18%/3m+73%/rng92%)","🟡观望[trigger:回HK+CoWoS 设备订单 visibility]","高端封装设备 TCB/SiP"
+"2026-06-01","个人AIPC","ONTO.US","Onto Innovation","上游设备","⑥","258.24","USD","early-uptrend深度回调(1m-9%/3m+19%/off-16%)","🟢候选[健康回调期+先进封装计量纯 play]","封装/AI 衬底计量设备"
+"2026-06-01","个人AIPC","AMAT.US","Applied Materials","上游设备","⑥","450.06","USD","early-uptrend(1m+17%/3m+21%/rng98%)","🔴排除[综合大厂业务摊薄+市值已5300亿]","半导体设备综合"
+"2026-06-01","个人AIPC","MPWR.US","Monolithic Power","中游卖铲子","④","1566.21","USD","early(1m+3%/3m+37%/rng87%)","🟡观望[trigger:AI PC PMIC 营收占比可量化]","高效率 PMIC-同时跨 800VDC 主题"
+"2026-06-01","个人AIPC","QRVO.US","Qorvo","中游卖铲子","④⑧","103.56","USD","early-uptrend(1m+20%/3m+25%/rng86%)","🟡观望[trigger:转型连接+电源占比+Apple 客户依赖度]","RF+电源转型期"
+"2026-06-01","个人AIPC","SWKS.US","Skyworks","中游卖铲子","④⑧","77.85","USD","early-uptrend(1m+24%/3m+31%/rng82%)","🟡观望[trigger:非 Apple 客户多元化+营收 visibility]","RF 综合+Apple 大客户依赖"
+"2026-06-01","个人AIPC","SIMO.US","Silicon Motion","中游卖铲子","④⑦","276.87","USD","extended(1m+27%/3m+114%/rng93%)","🟡观望[trigger:回\ 或本地 AI 推理 SSD 占比可量化]","SSD 主控+本地推理 alpha"
+"2026-06-01","个人AIPC","SYNA.US","Synaptics","中游卖铲子","④","137.28","USD","extended(1m+55%/3m+68%)","🟡观望[trigger:回-25%+边缘 AI 营收]","触控+边缘 AI"
+"2026-06-01","个人AIPC","MXL.US","MaxLinear","中游卖铲子","④⑦","92.93","USD","extended/parabolic(3m+433%)","🔴跳过[3m+433% 妖股别追]","Wi-Fi 7+连接已抛物线"
+"2026-06-01","个人AIPC","5392.TWO","Auras Technology","中游卖铲子","④⑥","44.55","TWD","range/basing(1m+9.5%/3m-1%/rng57%)","🟢候选[Vapor Chamber 真早期+笔电散热瓶颈]","散热模组 Vapor Chamber"
+"2026-06-01","个人AIPC","3324.TW","Aurora Forging","中游卖铲子","④⑥","NEEDS-DATA","TWD","EODHD无数据","🟡观望[trigger:换 yfinance 或台股代码重试]","双鸿笔电散热龙头"
+"2026-06-01","个人AIPC","3483.TWO","Liguid","中游卖铲子","④⑥","95","TWD","range(1m+1.4%/3m+3%/rng75%)","🟡观望[trigger:站稳+AI PC 散热订单 visibility]","力致散热模组"
+"2026-06-01","个人AIPC","2382.TW","Quanta","中游系统","④","339","TWD","early(1m+5%/3m+16%/rng91%)","🔴跳过[ODM 已被覆盖+毛利率低]","笔电 ODM 龙头"
+"2026-06-01","个人AIPC","2356.TW","Inventec","中游系统","④","70.2","TWD","extended(rng100%/1m+52%/3m+52%)","🔴跳过[已抛物线+ODM 摊薄]","笔电 ODM"
+"2026-06-01","个人AIPC","INTC.US","Intel","下游对照","排除","114.68","USD","extended(3m+151%)","🔴排除[下游巨头-非Serenity猎物]","Lunar Lake/Panther Lake NPU"
+"2026-06-01","个人AIPC","AMD.US","AMD","下游对照","排除","516.1","USD","extended(1m+53%/3m+158%/rng99%)","🔴排除[下游巨头]","Ryzen AI 300/Strix Halo"
+"2026-06-01","个人AIPC","QCOM.US","Qualcomm","下游对照","排除","251.02","USD","extended(1m+61%/3m+76%/rng100%)","🔴排除[下游巨头]","Snapdragon X Elite/Plus"
+"2026-06-01","个人AIPC","MSFT.US","Microsoft","下游对照","排除","450.24","USD","early(1m+6%/3m+15%)","🔴排除[下游巨头-MC 3T+]","Copilot+ 标准制定者"
+"2026-01-02","AI算力","ARM.US","ARM Holdings","上游咽喉","①②④⑧⑨","114.73","USD","historical-seed","🟢历史种子[ARM IP 跨多主题-数据中心ARM/Graviton/Grace 上游]","ARM IP 授权-每片 ARM-based SoC 必交版税"
+"2026-06-01","个人AIPC","ARM.US","ARM Holdings","上游咽喉","①②④⑧⑨","353.29","USD","extended(1m+75/3m+177/rng100)","🟡观望[trigger:回 \-260 深度回调-ARM IP 真单源+跨多主题但已抛物线]","ARM IP 授权-Copilot+ PC 全部 ARM-based"
+"2026-06-01","个人AIPC","CDNS.US","Cadence","上游咽喉","①④","374.93","USD","early(3m+24/rng94顶部)","🟡观望[trigger:回 \+NPU 设计客户多元化]","EDA 双寡头-NPU/SoC 设计必用"
+"2026-06-01","个人AIPC","SNPS.US","Synopsys","上游咽喉","①④","475.62","USD","early-uptrend深度回调(1m-1/3m+15/off-11)","🟢候选[模式 A 健康调整-EDA 双寡头之一]","EDA 双寡头-每个 SoC 设计必用"
+"2026-06-01","物理AI","603297.SHG","永新光学","上游咽喉","①⑦","130.98","CNY","early-uptrend(1m-1%/3m+6%/rng49%/off-20%)","🟡观望[早期stage+光学元件/非真单源]","宁波永新 光学元件(车载/机器人镜头)— 之前 v3 错标为绿的谐波,修复 ticker"
+"2026-06-01","物理AI","603667.SHG","五洲新春","上游咽喉","①⑨","71.76","CNY","basing启动(1m+11.9%/3m-10.3%/off-21%)","🟢候选[行星滚柱丝杠潜力+深度回调真basing]","人形机器人线性执行器核心-丝杠潜力股"
+"2026-06-01","物理AI","603009.SHG","北特科技","上游咽喉","①⑨","48.26","CNY","basing启动(1m+6%/3m-10%/off-19%)","🟢候选[行星滚柱丝杠潜力+真basing]","行星滚柱丝杠拓展+模式A早期"
+"2026-06-01","物理AI","002338.SHE","奥普光电","上游咽喉","①⑨","55.75","CNY","range深度回调(1m-9%/3m-0.4%/off-18%)","🟡观望[trigger:1m转正+人形机器人编码器订单visibility]","A股光电编码器领先-纯play"
+"2026-06-01","物理AI","603728.SHG","鸣志电器","上游咽喉","①⑨","61.32","CNY","downtrend(1m+4.9%/3m-11.3%/rng29%)","🟡观望[trigger:站回SMA50+空心杯电机订单]","空心杯电机A股龙头-人形机器人精细执行器"
+"2026-06-01","物理AI","688160.SHG","步科股份","上游咽喉","①⑨","110.93","CNY","downtrend(1m+8%/3m-11.5%/rng28%)","🟡观望[trigger:回到rng50%以上+无框力矩电机量产订单]","无框力矩电机+伺服-人形关节直驱"
+"2026-06-01","物理AI","RSW.LSE","Renishaw","上游咽喉","①","5300","GBX","early-uptrend贴顶(rng99%/3m+23%)","🟡观望[trigger:回调-15%以上]","英国高精度编码器全球龙头-业务多元摊薄"
+"2026-06-01","物理AI","ADI.US","Analog Devices","上游设备","④⑧","413.85","USD","early-uptrend(1m+6%/3m+16%/rng89%)","🟡观望[trigger:MEMS IMU机器人营收占比可量化]","MEMS+ISP综合-机器人感知+模拟链路-巨头摊薄"
+"2026-06-01","物理AI","TTDKY.US","TDK ADR","上游设备","④⑧","25.91","USD","extended/parabolic(1m+55%/3m+67%/rng100%)","🔴跳过[已抛物线]","MEMS IMU(InvenSense)+电池+磁头综合-需求被市场认知"
+"2026-06-01","物理AI","6324.T","Harmonic Drive","上游咽喉","①②","7780","JPY","extended(1m+64%/3m+70%/rng89%-yfinance)","🔴跳过[已抛物线-日股龙头先涨]","日本谐波减速器全球龙头-人形机器人关节核心(先涨案例-印证主题成立)"
+"2026-06-01","物理AI","6268.T","Nabtesco","上游咽喉","①②","5541","JPY","early-uptrend(1m+10%/3m+14%/rng80%-yfinance)","🟡观望[trigger:小盘标的优先-Nabtesco MC偏大失⑦]","日本RV减速器全球龙头-机器人本体大型关节"
+"2026-06-01","物理AI","AMBA.US","Ambarella","中游卖铲子","④⑦","72.18","USD","early-uptrend(1m+9.5%/3m+19.6%/rng52%)","🟢候选[机器人视觉SoC纯play+健康位置]","边缘视觉SoC-机器人/自动驾驶/安防"
+"2026-06-01","物理AI","002747.SHE","埃斯顿","中游系统","④⑧","27.72","CNY","early-uptrend(1m+33%/3m+17%/rng78%)","🟡观望[trigger:1m偏热-回调-15%后]","A股工业机器人本体龙头-1m+33%已启动"
+"2026-06-01","物理AI","ARM.US","ARM Holdings","IP层","①②④⑧⑨","353.29","USD","extended(1m+75%/3m+177%/rng100%)","🟡观望[trigger:回\-260]","ARM IP-NVDA Jetson/Grace/机器人SoC普适-跨主题⭐扩展到第3个主题"
+"2026-06-01","物理AI","MPWR.US","Monolithic Power","中游卖铲子","④","1566.21","USD","early(1m+3%/3m+37%)","🟡观望[trigger:回\+机器人PMIC营收占比]","高效PMIC-机器人功率管理跨主题⭐扩展第3个主题"
+"2026-06-01","物理AI","NVDA.US","NVIDIA","下游对照","排除","211.14","USD","early(1m+0.9%/3m+19%)","🔴排除[下游巨头-Cosmos主推但市值4T+全市场覆盖]","Physical AI主推-Cosmos/Jetson/Isaac/Omniverse"
+"2026-06-01","物理AI","TSLA.US","Tesla","下游对照","排除","435.79","USD","early(1m+17%/3m+8%)","🔴排除[下游巨头-Optimus主推但已被覆盖]","Optimus人形机器人+FSD"
+"2026-06-01","物理AI","ISRG.US","Intuitive Surgical","下游对照","排除","424.64","USD","downtrend(1m-6%/3m-16%/rng3%)","🔴排除[非Serenity猎物]","医疗机器人da Vinci-估值已显著调整但不是主题猎物"
+"2026-06-01","物理AI","6954.T","Fanuc","中游系统","④⑧","8081","JPY","early-uptrend(1m+16%/3m+15%/rng81%-yfinance)","🟡观望[trigger:小盘标的优先-Fanuc MC偏大失⑦]","日本工业机器人龙头-下游本体厂"
+"2026-06-01","物理AI","6506.T","Yaskawa","中游系统","④⑧","7140","JPY","early-uptrend偏热(1m+33%/3m+32%-yfinance)","🟡观望[trigger:回调-15%]","日本伺服+工业机器人本体-1m+33%偏热"
+"2026-06-01","自动驾驶L4","HSAI.US","Hesai 禾赛","上游咽喉","①⑦⑨","18.9","USD","range深度底(1m-16.7%/3m-31%/rng11%/off-36%)","🟢候选[LiDAR 中概龙头深度回调-Serenity ⑨地缘错杀经典]","中国LiDAR出货全球#1-车规+RoboTaxi双线-中美关系打压被错杀"
+"2026-06-01","自动驾驶L4","LAZR.US","Luminar","反面参照","反向","0.09","USD","实质清盘(1m-90%/3m-95%)","🔴排除[财务失败案例]","技术故事破灭+财务危机-避开"
+"2026-06-01","自动驾驶L4","INVZ.US","Innoviz","上游咽喉","①","0.76","USD","range(1m+14%/3m-15.7%/rng22%)","🟡观望[trigger:订单 visibility+财务转正]","小盘 LiDAR 横盘等故事"
+"2026-06-01","自动驾驶L4","AEVA.US","Aeva","上游咽喉","①⑦","28.18","USD","extended/parabolic(1m+76%/3m+94%/rng92%)","🔴跳过[已抛物线]","FMCW LiDAR 技术升级路线-已被认知"
+"2026-06-01","自动驾驶L4","OUST.US","Ouster","上游咽喉","①","46.05","USD","extended(1m+71%/3m+127%/rng96%)","🔴跳过[已抛物线]","数字 LiDAR-已被认知"
+"2026-06-01","自动驾驶L4","INDI.US","Indie Semiconductor","上游咽喉","①④","4.99","USD","extended(3m+47%/rng84%)","🟡观望[trigger:回-20%]","车规模拟+RF 已起步"
+"2026-06-01","自动驾驶L4","603501.SHG","韦尔股份","上游咽喉","①⑧⑨","95","CNY","range深度回调启动(1m-8.6%/3m-22.5%/rng12%/off-32%)","🟢候选[A股 CIS 车规龙头深度回调底+国产替代]","OmniVision 车规 CIS 全球#3+CMOS 图像传感器深度国产替代"
+"2026-06-01","自动驾驶L4","TRMB.US","Trimble","上游设备","①④","56.41","USD","range深度回调(1m-16%/3m-17.5%/rng11%/off-36%)","🟢候选[高精度 GNSS 定位被深度回调-但业务摊薄需注意]","GNSS+测绘 综合 - 自动驾驶+精准农业+建筑测量"
+"2026-06-01","自动驾驶L4","HXGBY.US","Hexagon ADR","上游设备","①④","10.8","USD","range(rng53%/1m+0%/3m-1.5%)","🟡观望[trigger:1m转正]","瑞典测绘综合-业务摊薄"
+"2026-06-01","自动驾驶L4","MBLY.US","Mobileye","中游器件","④⑦⑧","10.34","USD","early-uptrend(1m+19%/3m+24%/rng49%)","🟢候选[模式 A 健康入场+EyeQ 系列辅助驾驶 80% 全球市占]","EyeQ ASIC+全球辅助驾驶第一+L4 SuperVision"
+"2026-06-01","自动驾驶L4","AMBA.US","Ambarella","中游卖铲子","④⑦","72.18","USD","early-uptrend(1m+5%/3m+18%/rng50%)","🟢候选+跨主题⭐[跨物理AI+自动驾驶]","边缘视觉 SoC-同时跨人形机器人+自动驾驶+安防 多 capex cycle"
+"2026-06-01","自动驾驶L4","NXPI.US","NXP","中游器件","④⑧","321.35","USD","extended(1m+9.5%/3m+43%/rng88%)","🟡观望[trigger:回\]","车规 MCU 龙头-下游覆盖广业务摊薄"
+"2026-06-01","自动驾驶L4","688256.SHG","寒武纪","中游器件","④⑨","1310","CNY","extended(3m+12%/rng34%)","🔴跳过[市值~万亿超大-非Serenity猎物]","AI 芯片国产-但市值过大失⑦"
+"2026-06-01","自动驾驶L4","AUR.US","Aurora","中游系统","④⑦","7.34","USD","extended(1m+25%/3m+55%/rng75%)","🟡观望[trigger:回\+商业卡车 L4 实际营收 visibility]","自动驾驶卡车 L4 唯一上市纯 play"
+"2026-06-01","自动驾驶L4","CRNC.US","Cerence","中游系统","④⑦","12.86","USD","extended/parabolic(1m+41%/3m+66%/rng94%)","🟡观望[trigger:回-30%]","车载语音 AI-Nuance 拆分"
+"2026-06-01","自动驾驶L4","ARM.US","ARM Holdings","IP层","①②④⑧⑨","353.29","USD","extended(1m+75%/3m+177%/rng100%)","🟡观望[trigger:回\-260]","ARM IP-Mobileye EyeQ+NVDA Drive+所有车载 SoC 必交版税-跨主题⭐⭐⭐升级"
+"2026-06-01","自动驾驶L4","CDNS.US","Cadence","IP层","①④","374.93","USD","early-uptrend(3m+24%/rng94%顶部)","🟡观望[trigger:回\]","EDA 双寡头-车规 SoC 设计必用-跨主题"
+"2026-06-01","自动驾驶L4","SNPS.US","Synopsys","IP层","①④","475.62","USD","early-uptrend深度回调(off-11%)","🟢候选[模式 A 健康调整-车规芯片设计普适]","EDA 双寡头-车规 SoC 设计必用-跨主题"
+"2026-06-01","自动驾驶L4","MPWR.US","Monolithic Power","中游卖铲子","④","1566.21","USD","early(3m+37%)","🟡观望[跨主题⭐⭐⭐升级]","高效 PMIC-车规电源跨主题"
+"2026-06-01","自动驾驶L4","NVDA.US","NVIDIA","下游对照","排除","211.14","USD","early(3m+15%)","🔴排除[Drive Thor 平台主推但市值4T+]","下游 AI 计算-NVDA Drive Thor 自动驾驶 SoC"
+"2026-06-01","自动驾驶L4","TSLA.US","Tesla","下游对照","排除","435.79","USD","early(1m+14%/3m+8%)","🔴排除[FSD/Robotaxi 主题已被市场覆盖]","FSD 软件订阅+Cybercab"
+"2026-06-01","AMR无人机视觉","SYM.US","Symbotic","中游系统","④⑦","46.42","USD","range深度底(1m-21%/3m-14%/rng5%/off-47%)","🟡观望[trigger:1m转正+Walmart合同visibility]","仓储自动化龙头-Walmart  合同但短期跌势"
+"2026-06-01","AMR无人机视觉","AUTO.OL","AutoStore","中游系统","④⑦","13.15","NOK","extended(1m+12%/3m+14%/rng85%)","🟡观望","挪威仓储自动化龙头-Ocado/Best Buy 客户"
+"2026-06-01","AMR无人机视觉","CGNX.US","Cognex","中游器件","④⑦","65.85","USD","extended(1m+19%/3m+22%/rng84%)","🟡观望[trigger:回调-20%]","美国机器视觉龙头-工业精密检测"
+"2026-06-01","AMR无人机视觉","6861.T","Keyence","中游器件","④⑦","80220","JPY","extended(1m+9%/3m+22%/rng88%)","🟡观望[trigger:回调]","日本机器视觉龙头-毛利率55% 业内最高"
+"2026-06-01","AMR无人机视觉","002415.SHE","海康威视","中游系统","④⑦⑨","30.56","CNY","range深度回调启动(1m-12%/3m-3%/rng23%/off-19%)","🟢候选[Entity List地缘错杀+国产替代+rng23%深度底]","全球安防/机器视觉龙头-被Entity List打压但产业地位未变"
+"2026-06-01","AMR无人机视觉","002236.SHE","大华股份","中游系统","④⑦⑨","16.69","CNY","range深度回调(1m-8%/3m-13%/rng7%/off-21%)","🟡观望[trigger:1m转正+海康跟随]","全球安防#2-同海康但更小盘"
+"2026-06-01","AMR无人机视觉","AVAV.US","AeroVironment","中游系统","④⑦","207.24","USD","range深度回调(1m+6%/3m-0.5%/rng20%/off-49%)","🟢候选[军用无人机龙头+Switchblade乌克兰验证+深度回调底]","Switchblade 巡飞弹+Puma 战术无人机-美军主力"
+"2026-06-01","AMR无人机视觉","JOBY.US","Joby Aviation","中游系统","④⑦","11.9","USD","extended(1m+30%/3m+16%/rng47%)","🟡观望[trigger:回\]","eVTOL Toyota 投资+FAA 认证推进中"
+"2026-06-01","AMR无人机视觉","ACHR.US","Archer Aviation","中游系统","④⑦","6.81","USD","range(1m+19%/3m-9%/rng45%)","🟡观望[trigger:商业化里程碑]","eVTOL Stellantis 投资"
+"2026-06-01","AMR无人机视觉","EHGO.US","亿航 EHang","反面参照","反向","1.65","USD","extended/parabolic(3m+708%)","🔴跳过[微盘妖股]","eVTOL 中概-3m+708% 妖股别追"
+"2026-06-01","AMR无人机视觉","KTOS.US","Kratos","中游系统","④⑦⑧","64.13","USD","range深度回调(3m-29%/rng15%/off-52%)","🟢候选[军用无人机+靶机 国防深度回调]","XQ-58 Valkyrie 协同战斗机+Mako高超音速"
+"2026-06-01","AMR无人机视觉","ISRG.US","Intuitive Surgical","中游系统","④⑧","424.64","USD","range深度回调(1m-7%/3m-14%/rng5%/off-47%)","🟡观望[trigger:da Vinci 5 出货放量;但市值~1500亿失⑦]","da Vinci 手术机器人全球近垄断但市值过大"
+"2026-06-01","AMR无人机视觉","SYK.US","Stryker","中游系统","④⑧","305.09","USD","range深度回调(1m-3%/3m-21%/rng22%)","🟡观望[trigger:回正]","MAKO 骨科手术机器人-但市值~1100亿失⑦"
+"2026-06-01","AMR无人机视觉","DE.US","Deere","中游系统","④⑧","542.18","USD","range深度回调(1m-8%/3m-14%/rng40%)","🟡观望[trigger:农业精准化营收占比]","农业机器人化龙头-但市值~1500亿失⑦"
+"2026-06-01","AMR无人机视觉","AGCO.US","AGCO","中游系统","④","112.28","USD","range深度回调(1m-7%/3m-18%/rng24%)","🟡观望[trigger:精准农业 visibility]","精准农业-Fendt 品牌"
+"2026-06-01","AMR无人机视觉","CAT.US","Caterpillar","反面参照","反向","875.87","USD","extended(3m+16%/rng85%)","🔴排除[巨头综合摊薄]","建筑机械下游"
+"2026-06-01","AMR无人机视觉","ABBNY.US","ABB ADR","中游系统","④⑧","106.74","USD","extended(rng95%/3m+18%)","🔴跳过[巨头综合摊薄+rng顶]","工业机器人四大家族"
+"2026-06-01","AMR无人机视觉","AMZN.US","Amazon","反面参照","反向","270.64","USD","extended(3m+30%/rng90%)","🔴排除[下游巨头-Kiva/Astro自研]","仓储自动化下游应用方"
+"2026-06-01","AMR无人机视觉","ARM.US","ARM Holdings","IP层","①②④⑧⑨","353.29","USD","extended(已抛物线)","🟡观望[trigger:回\-260]","ARM IP-AMR/无人机/视觉 SoC 普适-跨5主题升级"
+"2026-06-01","AMR无人机视觉","MPWR.US","Monolithic Power","中游卖铲子","④","1566.21","USD","early(3m+37%)","🟡观望[trigger:回\]","PMIC-AMR/视觉机器人电源跨5主题升级"
+"2026-06-01","AMR无人机视觉","AMBA.US","Ambarella","中游卖铲子","④⑦","72.18","USD","early-uptrend(rng50%)","🟢候选+跨主题⭐[工业视觉SoC+AMR/无人机视觉 SoC]","边缘视觉 SoC-工业/物流/无人机视觉跨主题"
+"2026-06-02","AIAgent经济","MNDY.US","monday.com","中游系统","④⑦","95.47","USD","basing-momentum(1m+31%/3m+30%/rng35%/off-42%)","🟢候选[模式A启动+应用层深度回调]","work mgmt+AI workflow agents-深度回调启动信号"
+"2026-06-02","AIAgent经济","APPN.US","Appian","中游系统","④⑦","27.77","USD","basing-momentum(1m+23%/3m+3%/rng36%/off-37%)","🟢候选[低代码 Agent 平台深度回调启动]","Process Automation+AI agents 低代码平台"
+"2026-06-02","AIAgent经济","PATH.US","UiPath","中游系统","④⑦","13.1","USD","basing-momentum(1m+23%/3m+19%/rng37%/off-34%)","🟢候选[RPA转 AI agents 启动 但历史包袱]","RPA 龙头转 Agentic Automation"
+"2026-06-02","AIAgent经济","MDB.US","MongoDB","中游器件","④⑦","403.88","USD","extended(1m+53%/3m+60%/rng82%)","🟡观望+跨主题⭐[trigger:回\]","Atlas Vector-RAG 必备但已被认知"
+"2026-06-02","AIAgent经济","CRM.US","Salesforce","中游系统","④⑧","209.6","USD","range中度回调(1m+14%/3m+7%/rng44%/off-22%)","🟡观望[trigger:Agentforce ARR visibility]","Agentforce 2024 末发布尚早期"
+"2026-06-02","AIAgent经济","PLTR.US","Palantir","中游系统","④⑧","160.65","USD","range中位(1m+11%/3m+9%/rng50%)","🟡观望[trigger:政府 Agent 订单]","AIP+Foundry 但 MC ~3500亿过大"
+"2026-06-02","AIAgent经济","HUBS.US","HubSpot","中游系统","④⑦","262.2","USD","range深度回调(1m+9%/3m-5%/rng38%/off-36%)","🟡观望[trigger:营销 Agent ARR]","HubSpot AI marketing/sales agents"
+"2026-06-02","AIAgent经济","NICE.US","NICE Ltd","中游系统","④⑧","99.45","USD","range深度回调(1m-12%/3m-20%/rng29%)","🟡观望[trigger:1m转正]","客服自动化 AI - 深度回调"
+"2026-06-02","AIAgent经济","ZS.US","Zscaler","中游系统","④⑦","155.71","USD","range深度回调(1m+11%/3m+0.7%/rng29%/off-39%)","🟡观望[trigger:AI agents 安全护栏 ARR]","AI agents API 安全防护"
+"2026-06-02","AIAgent经济","BILL.US","BILL Holdings","中游系统","④","39.51","USD","range深度回调(1m+1%/3m-10%/rng23%/off-31%)","🟡观望[trigger:1m启动]","SMB 财务 AI 自动化"
+"2026-06-02","AIAgent经济","AI.US","C3.ai","中游系统","④⑦","11.75","USD","extended(1m+28%/3m+29%)","🟡观望[trigger:回-15%]","企业 AI agents 但执行历史一般"
+"2026-06-02","AIAgent经济","GTLB.US","GitLab","中游系统","④⑦","33.79","USD","extended(1m+40%/3m+27%)","🟡观望[trigger:回\]","GitLab Duo 开发者 Agent"
+"2026-06-02","AIAgent经济","FSLY.US","Fastly","中游器件","④","19.08","USD","range深度回调(1m-32%/3m-10%/off-45%)","🟡观望[trigger:1m止跌]","edge compute 深度调整 待启动"
+"2026-06-02","AIAgent经济","SOUN.US","SoundHound","中游系统","④⑦","9.25","USD","extended边缘(1m-3%/3m+9%)","🟡观望[trigger:营收兑现]","语音 AI agents-市值已大幅波动"
+"2026-06-02","AIAgent经济","NOW.US","ServiceNow","中游系统","④⑧","NEEDS-VERIFY","USD","EODHD数据异常显示\-真实价应~\","🟡观望[trigger:EODHD verify]","Now Assist 企业流程 Agent - 数据需重 verify"
+"2026-06-02","AIAgent经济","ARM.US","ARM Holdings","IP层","①②④⑧⑨","408.85","USD","extended(1m+94%/3m+236%/rng96%)","🔴跳过[已极度抛物线 但跨6主题⭐⭐升级]","ARM IP - AI Agent 推理也基于 ARM SoC"
+"2026-06-02","AIAgent经济","MPWR.US","MPWR","中游卖铲子","④","1542.39","USD","extended(rng79%/3m+44%)","🟡观望[跨6主题⭐⭐升级]","PMIC - 数据中心 Agent 推理电源"
+"2026-06-02","AIAgent经济","CDNS.US","Cadence","IP层","①④","414.16","USD","extended(rng100%/3m+38%)","🟡观望[跨3主题⭐升级]","EDA - LLM 推理芯片设计"
+"2026-06-02","AIAgent经济","SNPS.US","Synopsys","IP层","①④","492.29","USD","extended(rng71%/off-9%)","🟡观望[跨3主题⭐升级]","EDA - 同 CDNS"
+"2026-06-02","AIAgent经济","DDOG.US","Datadog","中游器件","④⑦","277.49","USD","extended(1m+98%/3m+148%/rng99%)","🔴跳过[已抛物线 LLM observability 被市场认知]","LLM observability+APM agents 监控"
+"2026-06-02","AIAgent经济","MSFT.US","Microsoft","下游对照","排除","460.52","USD","extended(rng76%)","🔴排除[下游巨头]","Copilot Studio/Azure AI Foundry"
+"2026-06-02","AIAgent经济","GOOGL.US","Google","下游对照","排除","376.37","USD","extended(rng76%)","🔴排除[下游巨头]","Gemini Agents"
+"2026-06-02","AIAgent经济","AMZN.US","Amazon","下游对照","排除","261.26","USD","extended(rng79%)","🔴排除[下游巨头]","AWS Bedrock Agents"
+"2026-06-02","AIAgent经济","NVDA.US","NVIDIA","下游对照","排除","224.36","USD","extended(rng83%)","🔴排除[下游巨头-Agent推理 GPU]","NIM/AI Workbench"
+"2026-06-02","AIAgent经济","SNOW.US","Snowflake","中游器件","④","280.16","USD","extended(1m+99%/3m+69%/rng97%)","🔴跳过[已抛物线]","Cortex AI - 数据 Agent"
+"2026-06-02","AIAgent经济","NET.US","Cloudflare","中游器件","④","270.82","USD","extended(rng100%/3m+51%)","🔴跳过[已抛物线-AI Gateway 被认知]","AI Gateway + Workers AI"
+"2026-06-02","AIAgent经济","FROG.US","JFrog","中游器件","④","88.31","USD","extended(1m+77%/3m+109%/rng100%)","🔴跳过[已抛物线]","Software supply + AI"
+"2026-06-02","AIAgent经济","CFLT.US","Confluent","中游器件","④","30.99","USD","extended/at-top(rng100%)","🔴跳过[已贴顶]","Kafka streaming"
+"2026-06-02","AIAgent经济","ESTC.US","Elastic","中游器件","④","68.06","USD","extended(1m+40%/3m+29%)","🔴跳过[已偏热]","Search+vector"
+"2026-06-02","AIAgent经济","APP.US","AppLovin","中游系统","④","613.7","USD","extended(3m+40%)","🔴跳过[已偏热-广告非纯 Agent]","AI 广告"
+"2026-06-02","AIAgent经济","ZI.US","ZoomInfo","中游系统","④","10.55","USD","range贴顶(rng94%)","🔴跳过[小盘+rng94%]","销售 AI - 商业表现待复核"
+"2026-06-02","AIAgent经济","META.US","Meta","下游对照","排除","600.47","USD","range(rng36%)","🔴排除[下游巨头-Llama 自营]","开源 LLM 持有方"
+"2026-06-02","AIAgent经济","S.US","SentinelOne","中游系统","④⑦","17.81","USD","extended边缘(1m+19%/3m+34%)","🔴跳过[偏热]","AI 安全"
+"2026-06-02","AIAgent经济","DBX.US","Dropbox","中游系统","④","28.91","USD","extended(1m+16%/3m+10%/rng85%)","🔴跳过[偏热]","Dropbox AI 文档 agent"
+"2026-06-02","AIAgent中国","1357.HK","美图公司","中游应用","④⑦","5.5","HKD","basing-momentum(1m+32%/3m-3%/rng27%/off-41%)","🟢候选[模式A真启动+美颜SaaS 商业化]","美图秀秀+AI设计工具订阅制商业化"
+"2026-06-02","AIAgent中国","688111.SHG","金山办公","中游应用","④⑦⑨","256.1","CNY","basing-momentum启动(1m+2.7%/3m-15%/rng16%/off-38%)","🟢候选[WPS AI 国产 Copilot+深度回调启动]","WPS Office + WPS AI 类 Copilot 国产替代"
+"2026-06-02","AIAgent中国","0268.HK","金蝶国际","中游应用","④⑦⑧","8.68","HKD","basing-momentum(1m+1.5%/3m-12%/rng17%/off-49%)","🟢候选[企业 SaaS 苍穹 Agent+深度回调启动]","企业 ERP+云 SaaS 苍穹 AI Agent"
+"2026-06-02","AIAgent中国","688787.SHG","海天瑞声","上游材料","①④⑦","138.11","CNY","basing-momentum(1m+7.5%/3m-9%/rng39%/off-30%)","🟢候选[AI 训练数据集纯 play+1m 启动]","语音/视觉/NLP AI 训练数据集"
+"2026-06-02","AIAgent中国","300033.SHE","同花顺","中游应用","④⑦","228.87","CNY","range深度底(1m-2%/3m-31%/rng4%/off-47%)","🟡观望[trigger:1m 转正]","金融信息服务+i问财 AI"
+"2026-06-02","AIAgent中国","300229.SHE","拓尔思","中游 infra","④⑦","17.37","CNY","range深度底(1m-3%/3m-25%/rng6%/off-44%)","🟡观望[trigger:1m 转正]","NLP+知识图谱+政务/媒体大模型应用"
+"2026-06-02","AIAgent中国","688561.SHG","奇安信","中游 infra","④⑦","27.69","CNY","range深度底(1m-6%/3m-22%/rng7%/off-38%)","🟡观望[trigger:1m 转正+AI 安全 ARR]","网络安全+AI agents API 安全护栏"
+"2026-06-02","AIAgent中国","600588.SHG","用友网络","中游应用","④⑦⑨","11.41","CNY","range深度底(1m-4%/3m-20%/rng16%/off-40%)","🟡观望[trigger:YonGPT 营收 visibility]","企业 ERP+YonGPT 大模型"
+"2026-06-02","AIAgent中国","002410.SHE","广联达","中游应用","④⑦","10.11","CNY","range深度底(1m-8%/3m-28%/rng10%/off-38%)","🟡观望[trigger:1m 转正]","建筑 BIM SaaS+AI"
+"2026-06-02","AIAgent中国","603039.SHG","泛微网络","中游应用","④⑦","40.3","CNY","range深度底(1m-11%/3m-14%/rng12%/off-46%)","🟡观望[trigger:1m 转正]","OA 协同办公+AI"
+"2026-06-02","AIAgent中国","002315.SHE","焦点科技","中游应用","④⑦","28.29","CNY","range极深底(1m-7%/3m-38%/rng5%/off-55%)","🟡观望[trigger:1m 转正+电商订单]","跨境电商 SaaS+AI 营销"
+"2026-06-02","AIAgent中国","2013.HK","微盟集团","中游应用","④⑦⑧","1.36","HKD","range深度底(1m-7%/3m-29%/rng8%/off-48%)","🟡观望[trigger:腾讯生态营销 ARR]","微信营销 SaaS+AI"
+"2026-06-02","AIAgent中国","0020.HK","商汤","中游应用","④⑦","1.76","HKD","range深度底(1m-11%/3m-28%/rng12%/off-37%)","🟡观望[trigger:商量大模型 B 端订单]","商量大模型(日日新)"
+"2026-06-02","AIAgent中国","688369.SHG","致远互联","中游应用","④⑦","22.37","CNY","range深度底(1m-8%/3m-14%/rng12%/off-38%)","🟡观望[trigger:1m 转正]","OA 协同办公中型厂商"
+"2026-06-02","AIAgent中国","688158.SHG","优刻得","中游 infra","④⑦","38.74","CNY","range回调中(1m-15%/3m-4%/rng53%/off-28%)","🟡观望[trigger:1m 转正]","第三方云+AI 算力服务"
+"2026-06-02","AIAgent中国","000977.SHE","浪潮信息","上游材料","①⑧","64.14","CNY","range中位(1m-11%/3m+0.4%/rng36%/off-19%)","🟡观望[trigger:1m 转正+AI 服务器订单]","AI 服务器+海若大模型+元脑 Agent 平台"
+"2026-06-02","AIAgent中国","603019.SHG","中科曙光","上游材料","①⑧","85.4","CNY","range深度回调(1m-6%/3m-7%/rng31%/off-19%)","🟡观望[trigger:1m 转正]","AI 服务器+HPC"
+"2026-06-02","AIAgent中国","002439.SHE","启明星辰","中游 infra","④⑧","14.48","CNY","range(1m-4.5%/3m-0.1%/rng42%/off-16%)","🟡观望[trigger:1m 转正+中移动协同]","网络安全(中移动控股)"
+"2026-06-02","AIAgent中国","688030.SHG","山石网科","中游 infra","④","16.81","CNY","range小幅启动(1m+2.8%/3m-7%/rng36%/off-22%)","🟡观望[trigger:1m 持续]","网络安全小盘(下一代防火墙)"
+"2026-06-02","AIAgent中国","688256.SHG","寒武纪","上游材料","①④⑨","1238","CNY","range(1m-12.6%/3m+5%/rng27%/off-37%)","🟡观望+跨主题⭐[同时跨自动驾驶]","A 股 AI 芯片(思元推理)-市值~1.5万亿过大"
+"2026-06-02","AIAgent中国","688041.SHG","海光信息","上游材料","①⑨","275.36","CNY","extended边缘(rng49%/1m-1.2%/off-23%)","🟡观望[trigger:回调]","AI/CPU 芯片国产替代(深算 GPU)"
+"2026-06-02","AIAgent中国","300308.SHE","中际旭创","上游材料","①④","1130","CNY","extended(1m+34%/3m+112%/rng90%)","🔴跳过+跨主题⭐[已抛物线-光模块全球龙头]","800G/1.6T 光模块龙头-AI 数据中心主供"
+"2026-06-02","AIAgent中国","603296.SHG","华勤技术","上游材料","①④","117.04","CNY","extended(1m+14%/3m+27%/rng88%)","🔴跳过[已抛物线]","AI 服务器 ODM 代工"
+"2026-06-02","AIAgent中国","9988.HK","阿里巴巴","下游对照","排除","122.8","HKD","range深度底(1m-2.5%/3m-14%/rng9%/off-30%)","🔴排除[下游巨头-但 rng9% 历史底-非 Serenity 猎物]","电商+阿里云+通义千问+百炼 Agent"
+"2026-06-02","AIAgent中国","0700.HK","腾讯","下游对照","排除","436","HKD","range深度底(1m-6.8%/3m-15%/rng7%/off-32%)","🔴排除[下游巨头-rng7% 历史底但 MC 4 万亿]","微信+游戏+混元大模型"
+"2026-06-02","AIAgent中国","9888.HK","百度","下游对照","排除","129.1","HKD","range中位(1m+8.8%/3m+4.6%/rng45%)","🔴排除[下游 LLM 巨头]","搜索+文心一言+千帆 Agent"
+"2026-06-02","AIAgent中国","3690.HK","美团","下游对照","排除","78.25","HKD","range深度回调(1m-6%/3m-2.7%/rng17%/off-27%)","🔴排除[下游巨头]","本地生活+LongCat+内部 agents"
+"2026-06-02","AIAgent中国","9618.HK","京东","下游对照","排除","112.4","HKD","range(1m-3.4%/3m+8%/rng45%/off-15%)","🔴排除[下游巨头]","电商+京东云+言犀大模型"
 "2026-06-02","AIAgent美国","PANW.US","Palo","中游卖铲子","⑧④","300.48","USD","ext/parabolic(1m+66%/3m+92%/rng98%/off-1%)","🔴排除[已抛物线+企业级AI防火墙红海]","企业级AI防火墙(AIAccess/Runtime/Prisma AIRS)"
 "2026-06-02","AIAgent美国","CRWD.US","CrowdStrike","中游卖铲子","⑧④","782.17","USD","ext/parabolic(1m+72%/3m+100%/rng99%/off-0%)","🔴排除[已抛物线+ARR增速放缓预期]","Falcon+Charlotte AI 安全 Agent 龙头"
 "2026-06-02","AIAgent美国","FTNT.US","Fortinet","中游卖铲子","⑧④","147.14","USD","ext/parabolic(1m+70%/3m+81%/rng100%/off-0%)","🔴排除[已抛物线+三巨头之一]","FortiAI 安全融合(SD-WAN+FW+Cloud)"
@@ -268,7 +268,7 @@
 "2026-06-02","物理AI美国","ROK.US","Rockwell","中游系统","④⑧","462.24","USD","ext/parabolic(1m+1%/3m+25%/rng95%/off-1%)","🔴排除[已ext+工业自动化龙头]","Rockwell Automation 工业自动化龙头(ETF audit 新)"
 "2026-06-02","物理AI美国","AMPX.US","Amprius","上游材料","②","22.54","USD","ext/parabolic(1m+2%/3m+38%/rng90%/off-7%)","🔴排除[已ext+硅负极niche]","Amprius 硅负极电池(ETF audit 新)"
 "2026-06-02","物理AI美国","CEVA.US","CEVA","中游器件","⑧","49.58","USD","ext/parabolic(1m+43%/3m+159%/rng95%/off-3%)","🔴排除[已ext+vision IP me-too]","CEVA DSP IP for vision/AI(ETF audit 新)"
-"2026-06-02","物理AI中国","603297.SHG","绿的谐波","上游咽喉","②⑦","123.74","CNY","ext/parabolic(1m-2%/3m+6%/rng49%/off-20%)","🟡观望[midExt 谐波减速器/rng49]","绿的谐波 减速器近垄断"
+"2026-06-02","物理AI中国","603297.SHG","永新光学","上游咽喉","①⑦","123.74","CNY","early-uptrend(1m-1%/3m+6%/rng49%/off-20%)","🟡观望[早期stage+光学元件非真单源]","宁波永新 光学元件(车载/机器人镜头)— 之前 v3 错标为绿的谐波,修复 ticker"
 "2026-06-02","物理AI中国","603667.SHG","五洲新春","上游咽喉","②⑦","71.84","CNY","basing-momentum(1m+1%/3m-0%/rng54%/off-26%)","🟡观望[deepRange 行星滚柱丝杠/1m+1.1]","五洲新春 行星滚柱丝杠 人形单源"
 "2026-06-02","物理AI中国","603009.SHG","北特科技","上游咽喉","②⑦","50.45","CNY","basing-momentum(1m+2%/3m-6%/rng52%/off-17%)","🟡观望[deepRange 滚珠丝杠/1m+2.5]","北特科技 滚珠丝杠 人形单源"
 "2026-06-02","物理AI中国","002338.SHE","奥普光电","上游设备","⑦","52.93","CNY","range/down(1m-16%/3m+2%/rng30%/off-23%)","🟡观望[deepDrop 光栅尺/1m-15]","奥普光电 编码器/光栅尺"
@@ -300,3 +300,5 @@
 "2026-06-02","物理AI中国","2382.HK","舜宇光学","中游系统","④","82.20","HKD","ext/parabolic(1m+26%/3m+54%/rng85%/off-6%)","🔴排除[ext 舜宇+1m+26]","舜宇光学 手机+车载+机器人"
 "2026-06-02","物理AI中国","9866.HK","蔚来汽车","下游对照","🚫","45.72","HKD","range/down(1m-1%/3m+24%/rng54%/off-17%)","🟡观望[ext mid 蔚来]","蔚来汽车 港股 ADR"
 "2026-06-02","物理AI中国","300750.SHE","宁德时代","下游对照","🚫","408.20","CNY","range/down(1m-10%/3m+20%/rng55%/off-13%)","🟡观望[range 宁德]","宁德时代 电池(下游对照)"
+"2026-06-05","物理AI","688017.SHG","绿的谐波","上游咽喉","②⑦","327.50","CNY","ext/parabolic(1m+42%/3m+55%/rng77%/off-15%)","🟡观望[已ext抛物线+真Tesla单源/等回调]","Leader Harmonious Drive — 真绿的谐波(2026-06-05 修复 ticker:之前 v3 错用 603297)"
+"2026-06-05","物理AI中国","688017.SHG","绿的谐波","上游咽喉","②⑦","327.50","CNY","ext/parabolic(1m+42%/3m+55%/rng77%/off-15%)","🟡观望[已ext抛物线+真Tesla单源/等回调]","Leader Harmonious Drive — 真绿的谐波(2026-06-05 修复 ticker:之前 v3 错用 603297)"
