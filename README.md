@@ -55,16 +55,25 @@ Theme → reverse supply-chain map → apply **9 "bottleneck archetypes"** → o
 
 ## 🛡️ 工程化纪律 / Engineering discipline
 
-这个 skill 的差异点不只是方法论,是**把 LLM 的已知失败模式工程化拦截**(每条纪律都来自一次真实翻车,教训档案写在 `SKILL.md`):
+这个 skill 的差异点不只是方法论,是**把 LLM 的已知失败模式工程化拦截**。每条纪律都来自一次真实翻车,完整复盘档案在 [`reference/lessons.md`](reference/lessons.md)(SKILL.md 只留祈使句 + 锚点指针,保持执行路径干净)。分两条战线 —— **让数据可信** + **让判断可问责**:
+
+**① 让数据可信(input trust)**
 
 | 防线 | 防什么 | 工具 |
 |---|---|---|
 | **A 穷尽性** | 凭记忆列候选会漏(漏过 PANW/CRWD 级主仓) | 已知玩家全集 audit,显式标 covered/private/acquired |
 | **A+ ETF audit** | LLM 的"知名度偏见" | `scripts/theme_etf_coverage.py` 拉主题 ETF 持仓做兜底 |
-| **A++ ticker 双向验证** | LLM hallucination 错位(把 603297 永新光学当成绿的谐波,价格/判定全反) | `scripts/ticker_truth.py` ground-truth 库 + `verify_tickers.py` git pre-commit hook 自动拦截 |
-| **价格纪律** | 用 WebSearch/记忆猜价格 | `scripts/price.py` 强制 EODHD→yfinance,9 字段全留档 |
+| **A++ ticker 双向验证** | LLM hallucination 错位(把 603297 永新光学当成绿的谐波,价格/判定全反) | `scripts/ticker_truth.py` ground-truth 库 + `verify_tickers.py` git pre-commit hook 自动拦截(累计抓出 4 个真错位)|
+| **价格纪律** | 用 WebSearch/记忆猜价格 | `scripts/price.py` 强制 EODHD→yfinance,9 字段全留档,严禁手填 |
 | **公司状态检查** | LLM 过期先验:私有→已 IPO(SpaceX 上市**当天**报告仍标"私有")/ 上市→被收购(SkyWater 被 IonQ 买走) | 判定前强制搜一次 acquisition/IPO 状态;状态断言必须带日期 |
-| **向前验证** | 事后吹回测 | `tracking/forward_picks.csv` 带日期锁定的样本外记录 |
+
+**② 让判断可问责(judgment accountability)** — 把 skill 从"找理由买"逼成"先想怎么会亏"
+
+| 防线 | 防什么 | 工具 |
+|---|---|---|
+| **§A 反向研究/红队** | "故事越讲越顺"(主题投资头号死法)| 每个候选强制四问 + 最大杀点;"是否已定价"必须引用 price.py 真实数字对账 |
+| **§B 证伪条件** | 🟢 只有多头故事、没有"什么证明我错了" | 每个 🟢 必带可检验证伪,≥1 条机器可读 → 写入 `forward_picks.csv` 的 `invalidation` 列 |
+| **Alpha 反馈闭环** | 事后吹回测 / 牛市里随便选都涨 | `score_tracker.py` 量 **Alpha = 标的 − 主题 ETF**(非 raw return);最硬的是 **🟢 篮子 vs 🔴 篮子内部对照**(主题 beta 对消)|
 | **防循环论证** | 把回填的已知赢家算进"向前业绩"(曾把均α 灌水到 +90%,真实值为负) | 标 `历史种子` 的回填行强制从一切统计中剔除 |
 
 ## Use / 用法
@@ -76,8 +85,9 @@ Theme → reverse supply-chain map → apply **9 "bottleneck archetypes"** → o
 ## Structure / 结构
 
 ```
-SKILL.md                         # 主流程:主题→挖股 7 步 + 两套择时 + 输出模板 + 教训档案
+SKILL.md                         # 主流程:主题→挖股 7 步 + 两套择时 + 输出模板(§A 红队/§B 证伪)
 reference/
+  lessons.md                     # 翻车档案:每条纪律对应一次真实事故(SKILL.md 用锚点指过来)
   methodology.md                 # 方法论(理念/筛选清单/两套择时/回避清单/风险)
   supply-chain-and-archetypes.md # 元框架 + 产业链速查表 + 9 大瓶颈原型库
   example_commercial_space.md    # 完整 worked example(商业航天)
@@ -90,9 +100,11 @@ scripts/
   ticker_truth.py                # ticker 验证/解析 API(L2)
   verify_tickers.py              # git pre-commit hook 扫描器(L3)
 tracking/
-  forward_picks.csv              # 向前(样本外)验证:带日期锁定的候选记录
+  forward_picks.csv              # 向前(样本外)验证:带日期锁定的候选记录 + invalidation 证伪列
+  theme_benchmark.csv            # 主题 → 基准 ETF 映射(算 Alpha 用)
+  score_tracker.py               # Alpha 打分(🟢-vs-🔴 内部对照 + vs 主题 ETF + 证伪触发检查)
+  scorecard.md                   # 最近一次打分结果(诚实标注样本不足)
   cross_theme_scan.py            # 跨主题节点矩阵(⭐ 跨 capex cycle 信号)
-  score_tracker.py               # 事后拉价打分
 ```
 
 ## Data / 数据
@@ -104,7 +116,12 @@ tracking/
 
 The only credible test is **forward / out-of-sample**: see `tracking/forward_picks.csv` (dated, rules-locked picks) + `tracking/score_tracker.py` (re-pulls prices later and scores them). Any in-sample "backtest" suffers look-ahead & survivorship bias and is **not** a performance claim.
 
-⚠️ `forward_picks.csv` 里判定含 **`历史种子`** 字样的行是回填的参照锚点(Serenity 本人的原始 call,按 2026-01-02 价格记录),**不是本框架的实时判定,做任何业绩统计必须剔除**——混入会造成循环论证(我们自己踩过:含种子时 🟢 均α 显示 +90%,剔除后真实向前样本为负且观察期未满)。真实向前验证基线自 **2026-05-26** 起算。
+**打分纪律(score_tracker)**:
+
+- 量 **Alpha = 标的收益 − 同期主题 ETF**(`theme_benchmark.csv` 映射),不量 raw return —— 牛市里随便选个上游小票也涨,raw return 看不出选股有没有 alpha。
+- 最硬的检验是 **🟢 候选篮子 vs 🔴 排除篮子内部对照**:两篮共享同一主题 beta,差额 = 纯选股能力,不依赖任何外部基准。
+- ⚠️ `forward_picks.csv` 里含 **`历史种子`** / record_date ≤ 2026-02-01 的行是回填参照锚点(Serenity 原始 call,2026-01-02 价),**做任何业绩统计必须剔除**——混入即循环论证(我们踩过:含种子时 🟢 均 α 灌水到 +90%,剔除后真实样本为负且观察期未满)。真实向前基线自 **2026-05-26** 起算。
+- **样本期太短 + N<30 → 当前只装仪表、不下结论。** 可信度由时间长出来,不由功能加出来。
 
 ## ⚠️ Disclaimer / 免责声明
 

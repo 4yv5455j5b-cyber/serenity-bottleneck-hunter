@@ -159,7 +159,9 @@
 "APPN.US","Appian Corp","Appian","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "ARM.US","Arm Holdings plc American Depositary Shares","ARM Holdings","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "ASEKY.US","Aisin Seiki Co Ltd","爱信精机","US","Common Stock","2026-06-05","manual fix 2026-06-05 (原误标 ASE 日月光,真日月光 ADR=ASX.US)"
+"ASTS.US","AST SpaceMobile","AST太空移动","NASDAQ","Aerospace & Defense","2026-06-12","eodhd+web"
 "ASX.US","ASE Industrial Holding Co Ltd ADR","日月光 ASE 封测","US","Common Stock","2026-06-05","manual add 2026-06-05 (ASEKY 错位修复)"
+"ATI.US","ATI Inc","ATI特种材料","NYSE","Specialty Metals","2026-06-12","eodhd+web"
 "AUR.US","Aurora Innovation Inc","Aurora","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "AUTO.OL","Auto Trader Group plc","AutoStore","LSE","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "AVAV.US","AeroVironment Inc","AeroVironment","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
@@ -177,6 +179,7 @@
 "CHKP.US","Check Point Software Technologies Ltd","Check","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "CRM.US","Salesforce.com Inc","Salesforce","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "CRNC.US","Cerence Inc","Cerence","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"CRS.US","Carpenter Technology","卡彭特技术","NYSE","Specialty Metals","2026-06-12","eodhd+web"
 "CRWD.US","Crowdstrike Holdings Inc","CrowdStrike","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "CTS.US","VietinBank Securities JSC","CTS Corp","VN","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "CVLT.US","CommVault Systems Inc","Commvault","US","Common Stock","2026-06-10","EODHD search"
@@ -190,6 +193,7 @@
 "EHGO.US","Eshallgo Inc. Class A Ordinary Shares","Eshallgo 办公设备(非亿航)","US","Common Stock","2026-06-05","manual fix 2026-06-05 (原误标亿航,真亿航 ADR=EH.US)"
 "ESTC.US","Elastic NV","Elastic","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "ETN.US","Eaton Corporation PLC","Eaton","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"FEIM.US","Frequency Electronics","频率电子","NASDAQ","Aerospace & Defense","2026-06-12","eodhd+web"
 "FFIV.US","F5 Networks Inc","F5","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "FICO.US","Fair Isaac Corporation","FICO","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "FIVN.US","Five9 Inc","Five9","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
@@ -200,32 +204,41 @@
 "GEN.US","Gen Digital Inc","Gen Digital 消费安全","LSE","Common Stock","2026-06-05","manual fix 2026-06-05 (init batch 错配 Genuit Group plc 英国塑料公司)"
 "GOOGL.US","Alphabet Inc Class A","Google","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "GTLB.US","Gitlab Inc","GitLab","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"HEI.US","HEICO Corp","海科航空","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "HSAI.US","Hesai Group Sponsored ADR","Hesai","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "HUBS.US","HubSpot Inc","HubSpot","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"HWM.US","Howmet Aerospace","豪迈航空航天","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "HXGBY.US","Hexagon AB ADR","Hexagon","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"HXL.US","Hexcel Corp","赫氏复材","NYSE","Aerospace Materials","2026-06-12","eodhd+web"
 "IFX.DE","Infineon Technologies AG","Infineon","XETRA","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "INDI.US","indie Semiconductor Inc","Indie","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "INTC.US","Intel Corporation","Intel","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "INVZ.US","Innoviz Technologies","Innoviz","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "IOT.US","Samsara Inc","Samsara","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "IPWR.US","Ideal Power Inc","Ideal Power","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"IPX.US","IperionX Ltd","IperionX钛材","NASDAQ","Specialty Metals","2026-06-12","eodhd+web"
 "IQE.LSE","IQE PLC","IQE plc","LSE","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "ISRG.US","Intuitive Surgical Inc","Intuitive","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "JOBY.US","Joby Aviation","Joby","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "KN.US","Knowles Cor","Knowles","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"KRMN.US","Karman Holdings","卡曼太空与防务","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "KTOS.US","Kratos Defense & Security Solutions","Kratos","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "KYOCY.US","Kyocera Corporation ADR","京瓷Kyocera ADR","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "LAZR.US","Luminar Technologies Inc","Luminar(已实质清盘)","US","Common Stock","2026-06-05","manual 2026-06-05"
 "LITE.US","Lumentum Holdings Inc","Lumentum","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "LPL.US","Lalpir Power Ltd","LG Display","KAR","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"LUNR.US","Intuitive Machines","直觉机器","NASDAQ","Aerospace & Defense","2026-06-12","eodhd+web"
 "MBLY.US","Mobileye Global Inc. Class A Common Stock","Mobileye","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "MDB.US","MongoDB","MongoDB","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "META.US","Meta Platforms Inc.","Meta","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "MNDY.US","Monday.Com Ltd","monday.com","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"MOG-A.US","Moog Inc Class A","穆格","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "MPWR.US","Monolithic Power Systems Inc","MPWR","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "MRAAY.US","Murata Manufacturing Inc","村田Murata ADR","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"MRCY.US","Mercury Systems Inc","Mercury Systems","US","Common Stock","2026-06-16","EODHD search"
 "MSFT.US","Microsoft Corporation","Microsoft","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
-"MTRN.US","Maytronics","Materion","TA","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"MTRN.US","Materion Corp","Materion","TA","Common Stock","2026-06-05","manual fix 2026-06-16 (init 误配 Maytronics 泳池机器人)"
+"MTSI.US","MACOM Technology Solutions","MACOM技术","NASDAQ","Semiconductors","2026-06-12","eodhd+web"
 "MU.US","Micron Technology Inc","Micron","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "MXL.US","MaxLinear Inc","MaxLinear","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "NBIS.US","Nebius Group N.V.","Nebius","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
@@ -247,6 +260,7 @@
 "PATH.US","Uipath Inc","UiPath","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "PAYC.US","Paycom Software, Inc.","Paycom","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "PD.US","Pagerduty Inc","PagerDuty","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"PL.US","Planet Labs","行星实验室","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "PLTR.US","Palantir Technologies Inc.","Palantir","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "POWI.US","Power Integrations Inc","Power Integrations","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "QCOM.US","Qualcomm Incorporated","Qualcomm","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
@@ -264,15 +278,18 @@
 "SAIL.US","SailPoint, Inc. Common Stock","SailPoint","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SIMO.US","Silicon Motion Technology","Silicon Motion","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SIVE.ST","Sivers IMA Holding AB","Sivers Semiconductors","ST","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"SKYT.US","SkyWater Technology","SkyWater晶圆代工","NASDAQ","Semiconductors","2026-06-12","eodhd+web"
 "SNOW.US","Snowflake Inc.","Snowflake","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SNPS.US","Synopsys Inc","Synopsys","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
-"SOI.PA","Schroder Oriental Income Fund","Soitec","LSE","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"SOI.PA","Soitec SA","Soitec","LSE","Common Stock","2026-06-05","manual fix 2026-06-16 (init 误配 Schroder Oriental)"
 "SOUN.US","SoundHound AI Inc","SoundHound","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"SPCX.US","SpaceX Corp","太空探索技术公司SpaceX","NASDAQ","Aerospace & Defense","2026-06-13","web(2026-06-12 IPO)"
 "STM.US","STMicroelectronics NV ADR","STMicroelectronics","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SWKS.US","Skyworks Solutions Inc","Skyworks","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SYK.US","Stryker Corporation","Stryker","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SYM.US","Symbotic Inc","Symbotic","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "SYNA.US","Synaptics Incorporated","Synaptics","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"TDY.US","Teledyne Technologies","特励达","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "TEAM.US","Atlassian Corp Plc","Atlassian","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "TENB.US","Tenable Holdings Inc","Tenable","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "TER.US","Teradyne Inc","Teradyne","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
@@ -284,6 +301,7 @@
 "TWLO.US","Twilio Inc","Twilio","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "VICR.US","Vicor Corporation","Vicor","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "VNP.TO","5N Plus Inc.","5N Plus","TO","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
+"VOYG.US","Voyager Technologies","旅行者技术","NYSE","Aerospace & Defense","2026-06-12","eodhd+web"
 "VRNS.US","Varonis Systems","Varonis","US","Common Stock","2026-06-10","EODHD search"
 "VRT.US","Vertiv Holdings Co","Vertiv","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "VSH.US","Vinh Son Song Hinh Hydropower JSC","Vishay","VN","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
@@ -295,20 +313,3 @@
 "ZI.US","ZIGUP plc","ZoomInfo","LSE","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "ZM.US","Zoom Video Communications Inc","Zoom","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
 "ZS.US","Zscaler Inc","Zscaler","US","Common Stock","2026-06-05","EODHD init batch 2026-06-05"
-KRMN.US,Karman Holdings,卡曼太空与防务,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-FEIM.US,Frequency Electronics,频率电子,NASDAQ,Aerospace & Defense,2026-06-12,eodhd+web
-MOG-A.US,Moog Inc Class A,穆格,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-MTSI.US,MACOM Technology Solutions,MACOM技术,NASDAQ,Semiconductors,2026-06-12,eodhd+web
-HEI.US,HEICO Corp,海科航空,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-TDY.US,Teledyne Technologies,特励达,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-ATI.US,ATI Inc,ATI特种材料,NYSE,Specialty Metals,2026-06-12,eodhd+web
-CRS.US,Carpenter Technology,卡彭特技术,NYSE,Specialty Metals,2026-06-12,eodhd+web
-HWM.US,Howmet Aerospace,豪迈航空航天,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-HXL.US,Hexcel Corp,赫氏复材,NYSE,Aerospace Materials,2026-06-12,eodhd+web
-IPX.US,IperionX Ltd,IperionX钛材,NASDAQ,Specialty Metals,2026-06-12,eodhd+web
-SKYT.US,SkyWater Technology,SkyWater晶圆代工,NASDAQ,Semiconductors,2026-06-12,eodhd+web
-VOYG.US,Voyager Technologies,旅行者技术,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-LUNR.US,Intuitive Machines,直觉机器,NASDAQ,Aerospace & Defense,2026-06-12,eodhd+web
-ASTS.US,AST SpaceMobile,AST太空移动,NASDAQ,Aerospace & Defense,2026-06-12,eodhd+web
-PL.US,Planet Labs,行星实验室,NYSE,Aerospace & Defense,2026-06-12,eodhd+web
-SPCX.US,SpaceX Corp,太空探索技术公司SpaceX,NASDAQ,Aerospace & Defense,2026-06-13,web(2026-06-12 IPO)

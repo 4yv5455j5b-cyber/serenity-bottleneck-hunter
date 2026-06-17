@@ -28,6 +28,35 @@ TICKER_RE = re.compile(r"\b(\d{4,6}(?:\.[A-Z]{1,4})?|[A-Z]{1,5}\.(?:US|HK|T|PA|L
 ZH_NAME_RE = re.compile(r"[一-鿿]{2,12}")  # 2-12 个中文字
 
 
+def _name_matches(claimed, truth_zh, truth_en):
+    """统一的容差匹配(company_desc 块 + CSV 块共用,2026-06-XX 抽出避免两套标准)。
+    真错位(绿的谐波 vs 永新光学,无任何公共子串)仍会被拦;同公司不同写法(村田Murata
+    vs 村田 MLCC、日月光ASE vs 日月光 ASE 封测、Eshallgo(注) vs Eshallgo)放行。"""
+    c = (claimed or "").strip()
+    cl = c.lower()
+    tz = (truth_zh or "").strip()
+    tzl = tz.lower()
+    tel = (truth_en or "").strip().lower()
+    if not c:
+        return True
+    # 中文整串任一方向子串
+    if cl and tzl and (cl in tzl or tzl in cl):
+        return True
+    # 英文整串包含
+    if cl and tel and cl in tel:
+        return True
+    # claimed 里的字母连串(≥3)出现在 truth 英文或中文里(Eshallgo / ASE / Auras 等)
+    for run in re.findall(r"[a-z]{3,}", cl):
+        if (tel and run in tel) or (tzl and run in tzl):
+            return True
+    # claimed 里任意连续 2 个中文字出现在 truth_zh(村田/日月光/绿的 这类)
+    for i in range(len(c) - 1):
+        if "一" <= c[i] <= "鿿" and "一" <= c[i + 1] <= "鿿":
+            if c[i:i + 2] in tz:
+                return True
+    return False
+
+
 def scan_file(path):
     """扫单个文件,返回 (mismatches, warnings) lists
     SKIP 机制:
@@ -40,7 +69,9 @@ def scan_file(path):
     if (base.startswith("_scan_") and (base.endswith(".json") or base.endswith(".py"))) \
        or base.startswith("_etf_audit_") \
        or base.startswith("_gen_") \
-       or base == "ticker_truth.csv":  # 自身就是 truth,不需自我 verify
+       or base.startswith("_score_") \
+       or base.endswith(".py") \
+       or base in ("ticker_truth.csv", "scorecard.md", "theme_benchmark.csv", "SKILL.md", "lessons.md", "report_template.html"):  # .py 脚本里 ticker 是代码字面量非名称声明;生成物/truth/文档/模板骨架(edge-list 权重标签非公司名)不自我 verify
         return ([], [])
     try:
         with open(path, encoding="utf-8") as f:
@@ -62,14 +93,7 @@ def scan_file(path):
             if not info: continue
             tz = (info.get("name_zh", "") or "").strip()
             te = (info.get("name_en", "") or "").strip()
-            cl = claimed.lower()
-            if claimed in tz or tz in claimed: continue
-            if cl in te.lower() or any(p in te.lower() for p in cl.split() if len(p) > 2): continue
-            # 宽容规则:中文 2 字公共子串即视为同一公司的别名变体(村田制作所 vs 村田Murata)
-            # 真错位 case(绿的谐波 vs 永新光学)无公共子串,仍会被拦
-            zh_chars = [c for c in claimed if '一' <= c <= '鿿']
-            if any(claimed[i:i+2] in tz for i in range(len(claimed)-1) if '一' <= claimed[i] <= '鿿'):
-                continue
+            if _name_matches(claimed, tz, te): continue
             mismatches.append({"file": path, "ticker": ticker, "claimed_zh": claimed,
                               "truth_zh": tz, "truth_en": te})
         return (mismatches, [])
@@ -82,7 +106,7 @@ def scan_file(path):
                 reader = _csv.reader(f)
                 header = next(reader, None)
                 # forward_picks schema: date,theme,ticker,name_zh,tier,...
-                if header and len(header) >= 4 and "ticker" in header[2].lower() and "name" in header[3].lower():
+                if header and len(header) >= 4 and ("symbol" in header[2].lower() or "ticker" in header[2].lower()) and "name" in header[3].lower():
                     for row in reader:
                         if len(row) < 4: continue
                         ticker, claimed_zh = row[2].strip(), row[3].strip()
@@ -91,9 +115,7 @@ def scan_file(path):
                         if not info: continue
                         tz = (info.get("name_zh", "") or "").strip()
                         te = (info.get("name_en", "") or "").strip()
-                        if claimed_zh in tz or tz in claimed_zh: continue
-                        if claimed_zh.lower() in te.lower() or any(p.lower() in te.lower() for p in claimed_zh.split() if len(p) > 2):
-                            continue
+                        if _name_matches(claimed_zh, tz, te): continue
                         mismatches.append({"file": path, "ticker": ticker, "claimed_zh": claimed_zh,
                                           "truth_zh": tz, "truth_en": te})
         except Exception:
